@@ -1,96 +1,38 @@
 ---
-title: About Alembic
-feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+title: Who I am
+image: "/assets/default-social-image.png"
+feature_text: |-
+  ## <span style="color:white">Marco Cipriani's website</span>
+    <span style="color:white">Discover me!</span>
+feature_image: assets/cover.png
+excerpt: Marco Cipriani's website. As an astronomy enthusiast, I write programs to  simplify  the
+  use of my telescope or for school projects. I also made some Arduino projects.
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+I'm an young astronomy enthusiast, attending the high school somewhere in Italy. In my free time I take photos of the universe with my telescope, and I often write some programs or Android applications to simplify the use of it. I also motorized the focuser of my SkyWatcher Newton OTA on my own, creating a 3D model for the brackets, programming an Arduino, a software on the computer and connecting some wires.
+Together with astronomy, I made some projects for school, like an application to factorize polynomials and a digital pendulum, and some electronic projects like a Bluetooth car.
 
-{% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %} {% include button.html text="Tip me $5 💸" link="https://www.paypal.me/daviddarnes/5usd" color="#333333" %}
+## Astronomy pictures
+Check out my blog for them!
 
-## Features
+## Projects for my telescope
+Hope you'll enjoy them all!
 
-- Available as a **theme gem** and **GitHub Pages** theme
-- Simple and elegant design that can be used out of the box or as solid starting point
-- Tested in all major browsers, including **IE and Edge**
-- Built in **Service Worker** so it can work offline and on slow connections
-- **Configurable colours** and typography in a single settings file
-- Extensive set of **shortcodes** to include various elements; such as buttons, icons, figure images and more
-- Solid **typographic framework** from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- **Contact form** built in using [Formspree](https://formspree.io/)
-- Designed with **[Siteleaf](http://www.siteleaf.com/)** in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
+### [OpenFocuser](projects/OpenFocuser)
+MoonLite-compatible motorized focuser controller with absolute and relative positioning and half and full step switching.
+Linux & MacOS (INDI) and Windows (MoonLite and ASCOM) compatible.
+Doesn't support temperature compensation.
+Comes in two editions: standard and Plus, which has a non-MoonLite extra function to control all the Arduino's digital and PWM pins, so that you can turn on and off (or regulate in current) other devices like dew heaters, mirror coolers, or even a Raspberry Pi directly from your computer, or remotely if you use an INDI server.
 
-## Examples
+## Some projects from my past
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
+### [MathsTests](projects/MathsTests)
+Don't you think that Maths hard? Right, but I love it. That's why I made this app: MathsTests can help you factorizing polynomials using the Ruffini's rule, and particular trinomials! Fast, lightweight and Open-source, it's a great app for everyone who needs help with polynomials. Psss... I'm not in charge of your bad marks if you use it during tests!
 
-- [bitpodcast.com](https://bitpodcast.com/)
-- [joelcagedesign.com](https://joelcagedesign.com/)
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](http://case2111.github.io/)
-- [www.10people.co.uk](http://www.10people.co.uk/)
-- [hrkeni.me](http://hrkeni.me/)
-- [ccs17.bsc.es](https://ccs17.bsc.es/)
-- [karateca.org](http://www.karateca.org/)
+### [JustAPendulum](projects/JustAPendulum)
+JustAPendulum is an Arduino-based open source pendulum that can process the measured oscillation period to find the [gravitational acceleration](https://en.wikipedia.org/wiki/Gravitational_acceleration) of the Earth (~9,8 m/s²). It contains an homemade [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) that uses an USB-to-Serial Adapter to communicate with your computer. JustAPendulum is highly accurate and with a large variety of tools, using its companion, written in Visual Basic .NET using [Visual Studio 2015](https://www.visualstudio.com/). Completely laser cutted and homemade, it is easy-to-use: if everything is OK, it always runs as fast as possible, without errors.
 
-## Installation
+Discover the great performances of JustAPendulum on its page!
 
-### Quick setup
-
-To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
-
-- ⚗️🍨 Vanilla Jekyll starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit){:style="background: none"}
-- ⚗️🌲 Forestry starter kit  
-  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=daviddarnes/alembic-forestry-kit&engine=jekyll){:style="background: none"}  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-forestry-kit){:style="background: none"}
-- ⚗️💠 Netlify CMS starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-netlifycms-kit&stack=cms){:style="background: none"}
-
-- ⚗️:octocat: GitHub Pages with remote theme kit  
-  {% include button.html text="Download kit" link="https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip" color="#24292e" %}
-
-### As a Jekyll theme
-
-1. Add `gem "alembic-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the theme and its dependancies
-3. Add `theme: alembic-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
-5. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-### As a GitHub Pages remote theme
-
-1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
-4. Add `remote_theme: daviddarnes/alembic` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-### As a Boilerplate / Fork
-
-_(deprecated, not recommended)_
-
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `.github`, `LICENSE`, `screenshot.png`, `CNAME` and `alembic-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-## Customising
-
-When using Alembic as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, simply by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
-
-To add your own styles copy the [`styles.scss`](https://github.com/daviddarnes/alembic/blob/master/assets/styles.scss) into your own project with the same file path (`assets/styles.scss`). From there you can add your own styles, you can even optionally ignore the theme styles by removing the `@import "alembic";` line.
-
-If you're just looking to set your own colours and fonts copy the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file into your project at the same file path (`_sass/_settings.scss`) and change variables however you wish. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings.
+### [RoverBluetooth](projects/RoverBluetooth)
+This was my first project and was borns for my school exams at the age of thirteen. This car is based on an [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno), world's #1 open-source board and is made only from low-cost components, easy to find everywhere: nothing must be made with a special machine! An old [Meccano®](http://www.meccano.com/) pack is all you need for the body of this car. Will you love it?
