@@ -1,0 +1,29 @@
+# OpenFocuser slider
+- selector: openfocuser_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/OpenFocuser/Motor-holder-1.jpg
+      alt: The 3D-printed mounting brackets and the motor on the focuser of a 200mm Newtonian telescope
+      title: The focuser
+    - data-src: /projects/OpenFocuser/Motor-holder-2.jpg
+      alt: Frontal view
+      title: The focuser
+    - data-src: /projects/OpenFocuser/Circuit-1.jpg
+      alt: Photo of the circuit (Plus edition, prototype)
+      title: The circuit
+    - data-src: /projects/OpenFocuser/FW-update.png
+      alt: Firmware update
+      title: OpenFocuser-Manager
+    - data-src: /projects/OpenFocuser/Plus-config.png
+      alt: Pin management, Plus edition
+      title: OpenFocuser-Manager
+    - data-src: /projects/OpenFocuser/Circuit-2.jpg
+      alt: image two
+      title: The circuit
+    - data-src: /projects/OpenFocuser/Motor-holder-3.jpg
+      alt: The telesope, frontal view
+      title: The focuser
+  settings:
+    maxHeight: 500
+    effect: "'slide'"

@@ -43,6 +43,10 @@
     {{ content }}
 
     {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
+    
+    {% include slider_scripts.html %}
+    
+    {% include slider_styles.html %}
 
     {% include site-before-end.html %}
   </body>

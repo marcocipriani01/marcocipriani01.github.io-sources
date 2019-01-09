@@ -101,10 +101,12 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 # 8. Site navigation
 navigation_header:
   Home: /
+  Projects: /projects/index
   OpenFocuser: /projects/OpenFocuser
   Blog: /blog/
   Categories: /categories/
   Search: /search/
+  About: /about
 
 navigation_footer:
   Alembic Jekyll theme by David Darnes: 'https://darn.es'
