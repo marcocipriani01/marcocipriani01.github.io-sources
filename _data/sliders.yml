@@ -4,7 +4,7 @@
   captions: true
   images:
     - src: /projects/OpenFocuser/Motor-holder-1.jpg
-      alt: The 3D-printed mounting brackets and the motor on the focuser of a 200mm Newtonian telescope
+      alt: The 3D-printed holder and the motor on the focuser of a Newtonian telescope
       title: The focuser
     - data-src: /projects/OpenFocuser/Motor-holder-2.jpg
       alt: Frontal view
@@ -19,7 +19,7 @@
       alt: Pin management, Plus edition
       title: OpenFocuser-Manager
     - data-src: /projects/OpenFocuser/Circuit-2.jpg
-      alt: image two
+      alt: Where I placed the circuit
       title: The circuit
     - data-src: /projects/OpenFocuser/Motor-holder-3.jpg
       alt: The telesope, frontal view
