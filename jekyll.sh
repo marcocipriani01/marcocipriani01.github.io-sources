@@ -7,7 +7,7 @@ function ctrl_c() {
     exit 0
 }
 
-bundle exec jekyll serve --host=0.0.0.0 &
+bundle exec jekyll serve --host=0.0.0.0 --incremental &
 jekyll_pid=$!
 while true; do
     read -p "$(echo -e "Press enter to restart \n ")"

@@ -27,3 +27,41 @@
   settings:
     maxHeight: 500
     effect: "'slide'"
+- selector: projects_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/OpenFocuser/Motor-holder-1.jpg
+      title: OpenFocuser
+      alt: The 3D-printed holder and the motor
+    - data-src: /projects/Telescope-Pi/1.jpg
+      title: Telescope-Pi
+      alt: Raspberry Pi 3 B+
+    - data-src: /projects/IPARCOS/slide.png
+      title: IPARCOS
+      alt: Telescope control app
+    - data-src: /projects/JustAPendulum/1.jpg
+      title: JustAPendulum
+      alt: Digital pendulum
+    - data-src: /projects/MathsTests/slide.png
+      title: MathsTests
+      alt: Ruffini's rule factorizer
+    - data-src: /projects/RoverBluetooth/1.jpg
+      title: RoverBluetooth
+      alt: Arduino-based Bluetooth car
+  settings:
+    maxHeight: 500
+    effect: "'slide'"
+- selector: horsehead_and_crab_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /blog/2018/2018-12-27-horsehead.jpg
+      title: Horsehead nebula
+      alt: Alnitak, Barnard 33 (Horsehead) and NGC 2024 (Flame nebula)
+    - data-src: /blog/2018/2018-12-27-crab.jpg
+      title: Crab nebula
+      alt: M 1
+  settings:
+    maxHeight: 500
+    effect: "'slide'"

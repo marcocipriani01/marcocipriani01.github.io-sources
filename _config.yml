@@ -60,7 +60,7 @@ timezone: Europe/Rome # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Stuff # Needed for Siteleaf
+    title: Astrophotos & more # Needed for Siteleaf
     output: true
     description: "" # The post list page content
     feature_text: >-
@@ -101,12 +101,12 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 # 8. Site navigation
 navigation_header:
   Home: /
-  Projects: /projects/index
+  Projects: /projects
   OpenFocuser: /projects/OpenFocuser
   Blog: /blog/
   Categories: /categories/
   Search: /search/
-  About: /about
+  This site: /this-site
 
 navigation_footer:
   Alembic Jekyll theme by David Darnes: 'https://darn.es'
