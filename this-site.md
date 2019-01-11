@@ -1,12 +1,15 @@
 ---
 title: This site
-image: "/assets/this-site-cover.png"
+image: "/assets/this-site-cover.jpg"
 feature_text: |-
   ## <span style="color:white">Marco Cipriani's website</span>
     <span style="color:white">About this website and the author!</span>
-feature_image: "/assets/this-site-cover.png"
-excerpt: Marco Cipriani's website. As an astronomy enthusiast, I write programs to  simplify  the
-  use of my telescope or for school projects. I also made some Arduino projects.
+feature_image: "/assets/this-site-cover.jpg"
+excerpt: I’m a young astronomy enthusiast, attending the high school somewhere in Italy.
+  In my free time, I take photos of the universe with my telescope and I often write some programs,
+  utilities or Android applications to simplify its use. In my website I describe my projects
+  and publish my photos of the universe.
+aside: true
 ---
 
 ### The author

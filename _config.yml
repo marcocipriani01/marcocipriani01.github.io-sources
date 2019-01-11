@@ -68,7 +68,7 @@ collections:
 
       <span style="color:white">My astronomy pictures, projects, suggestions,
       tips and tricks.</span>
-    feature_image: "assets/cover.png"
+    feature_image: "assets/cover.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -76,7 +76,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/cover.png" # Default image for sharing
+      image: "/assets/cover.jpg" # Default image for sharing
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
@@ -85,9 +85,10 @@ title: "Marco Cipriani" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.png" # Site logo, also used in jekyll-seo-tag
 # Site description and default description, also used in jekyll-seo-tag
 description: >-
-  Marco Cipriani's website. As an astronomy enthusiast, I write programs to
-  simplify the use of my telescope or for school projects. I also made some
-  Arduino projects.
+  I’m a young astronomy enthusiast, attending the high school somewhere in Italy.
+  In my free time, I take photos of the universe with my telescope and I often write some programs,
+  utilities or Android applications to simplify its use. In my website I describe my projects
+  and publish my photos of the universe.
 url: "https://marcocipriani01.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/marcocipriani01/marcocipriani01.github.io"

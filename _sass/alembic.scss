@@ -9,3 +9,19 @@
   "flex",
   "theme"
 ;
+
+.mobile-only {display: none;} 
+
+@media only screen and (max-width: 768px){ 
+    .mobile-only {
+        display: inline;
+    }
+}
+
+.desktop-only { display: inline; } 
+
+@media only screen and (max-width: 768px){ 
+    .desktop-only {
+        display: none;
+    }
+}

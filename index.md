@@ -1,25 +1,27 @@
 ---
 title: Who I am
-image: "/assets/cover.png"
+image: "/assets/cover.jpg"
 feature_text: |-
   ## <span style="color:white">Marco Cipriani's website</span>
     <span style="color:white">Discover me!</span>
-feature_image: assets/cover.png
-excerpt: Marco Cipriani's website. As an astronomy enthusiast, I write programs to  simplify  the
-  use of my telescope or for school projects. I also made some Arduino projects.
+feature_image: assets/cover.jpg
+excerpt: I’m a young astronomy enthusiast, attending the high school somewhere in Italy.
+  In my free time, I take photos of the universe with my telescope and I often write some programs,
+  utilities or Android applications to simplify its use. In my website I describe my projects
+  and publish my photos of the universe.
 ---
 
 I'm a young astronomy enthusiast, attending the high school somewhere in Italy. In my free time, I take photos of the universe with my telescope and I often write some programs, utilities or Android applications to simplify its use. I set up a Raspberry Pi to control the telescope remotely, motorized the focuser (designing and printing a 3D model for the brackets, programming an Arduino and a Java software for the computer) and the equatorial mount using two stepper motors and I wrote a bunch of code to move them using my smartphone. Together astronomy, I also made some projects for school: an app to factorize polynomials, a digitaal pendulum, which is able to calculate the gravitational acceleration of the Earth and the measurement errors and a Bluetooth car (with an Android app), that I also exposed to Maker Faire Rome when I was only thirteen.
 
 ## Astrophotography
-<img src="/assets/my-equipment.jpg" align="left" width="250" style="margin: 8px">
+{% include img-mobile-no-align.html src="/assets/my-equipment.jpg" width="250" %}
 Check out my blog for my photos!
 My equipment mainly consists of a 200mm Sky-Watcher Newton telescope, an equatorial mount (EQ5, GoTo, motorized by my own), a Nikon D3300 and a QHY 5L-II mono (guiding CCD/camera) on a 60mm guide scope. I added a homemade MoonLite-compatible focuser to the optical tube assembly and a Raspberry Pi 3 B+ (a tiny ARM computer) to remotely control my telescope from the backyard to my house during the coldest nights. It's not such an expensive gear because several items are homemade and what isn't is exploited as much as I can and, with it, I achieved great results: the focal length of 1000mm allows me to photograph wide as well as small objects like galaxies or nebulae and, with auto guiding, I can take 6 minutes long photos. I live in a very light polluted area, so I use an UHC filter. For processing the photos I use Astro Pixel Processor and all the equipment is controlled via INDI and KStars running on the Raspberry Pi and on my Ubuntu computer.
 
 ## Projects for my telescope
 Hope you'll enjoy them all!
 
-### [Telescope-Pi](projects/TelescopePi)
+### [Telescope-Pi](projects/Telescope-Pi)
 Telescope-Pi is the name I gave to the Raspberry Pi 3 B+ I use to remotely control my telescope. This project contains an installer that will guide the user while downloading and configuring all the INDI drivers and software needed to control CCDs, DSLRs and telescope mounts. Moreover, a Bluetooth service is installed: if you are away from known Wi-Fi network, you can use its Android app to connect the board to another access point or even start the hotspot mode, ideal if you are, for instance, in a trip far from light pollution. The service will also start the Indi Web Manager (and the OpenFocuser server if installed) at startup, while the system service manager (systemd) will check if something suddenly crashed: if the server crashes, it is automatically restarted. No programming competencies are required to install the software because the installation scripts are completely automated and will even fix common Raspberry issues (e.g. Bluez and Rfcomm). When configured, just turn on the board (no mouse, keyboard or screen required), use the app to connect to a Wi-Fi AP and then remotely manage the telescope!
 
 ### [OpenFocuser](projects/OpenFocuser)

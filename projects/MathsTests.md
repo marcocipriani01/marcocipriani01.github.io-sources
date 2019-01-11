@@ -1,9 +1,10 @@
 ---
 title: MathsTests
-feature_text: |-
-  ## <span style="color:white">Factorizing polynomials made easy</span>
-feature_image: "MathsTests/cover.jpg"
-excerpt: "MathsTests can help you factorizing polynomials using the Ruffini's rule. Fast, lightweight and Open-source Android app"
+image: "/assets/cover.jpg"
+feature_text: '## <span style="color:white">Factorizing polynomials made easy</span>'
+feature_image: MathsTests/cover.jpg
+excerpt: MathsTests can help you factorizing polynomials using the Ruffini's rule.
+  Fast, lightweight and Open-source Android app
 aside: true
 ---
 
