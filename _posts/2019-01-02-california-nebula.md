@@ -16,7 +16,7 @@ aside: true
 
 My first attempt to a wide nebula with an apochromatic telescope: the EvoStar 72. Good but disappointing result: the object is itself very bright but has few details, while the photo has a great noise-to-signal ratio even if I took only six frames. I wouldn't buy this telescope, and I'll explain why.
 
-![California Nebula](/blog/2019/2019-01-02-california-nebula.jpg/)
+![California Nebula](/blog/2019/2019-01-02-california-nebula.jpg)
 
 ### The nebula
 
