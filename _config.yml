@@ -92,7 +92,7 @@ description: >-
 url: "https://marcocipriani01.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/marcocipriani01/marcocipriani01.github.io"
-# email: "me@daviddarnes.com"
+email: "marco.cipriani.01@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "/assets/logo.png" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 # google_analytics: ''
@@ -107,7 +107,7 @@ navigation_header:
   Blog: /blog/
   Categories: /categories/
   Search: /search/
-  This site: /this-site
+  About: /about/
 
 navigation_footer:
   Alembic Jekyll theme by David Darnes: 'https://darn.es'

@@ -1,14 +1,14 @@
 ---
-title: This site
+title: About
 image: "/assets/this-site-cover.jpg"
 feature_text: |-
   ## <span style="color:white">Marco Cipriani's website</span>
     <span style="color:white">About this website and the author!</span>
 feature_image: "/assets/this-site-cover.jpg"
-excerpt: I’m a young astronomy enthusiast, attending the high school somewhere in Italy.
-  In my free time, I take photos of the universe with my telescope and I often write some programs,
-  utilities or Android applications to simplify its use. In my website I describe my projects
-  and publish my photos of the universe.
+excerpt: I’m a young astronomy enthusiast, attending the high school somewhere in
+  Italy. In my free time, I take photos of the universe with my telescope and I often
+  write some programs, utilities or Android applications to simplify its use. In my
+  website I describe my projects and publish my photos of the universe.
 aside: true
 ---
 
@@ -20,6 +20,9 @@ I’m a young astronomy enthusiast, attending the high school somewhere in Italy
 
 ### Privacy
 This website doesn't store cookies and doesn't have trackers.
+
+### Contact form
+{% include site-form.html %}
 
 ### Credits
 - [Jekyll](https://jekyllrb.com/)
