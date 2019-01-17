@@ -65,3 +65,24 @@
   settings:
     maxHeight: 500
     effect: "'slide'"
+- selector: justapendulum_companion
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/JustAPendulum/companion/1.png
+      title: The companion main screen
+    - data-src: /projects/JustAPendulum/companion/2.png
+      title: Oscillation period graph
+    - data-src: /projects/JustAPendulum/companion/3.png
+      title: Gravitational acceleration graph
+    - data-src: /projects/JustAPendulum/companion/4.png
+      title: History
+    - data-src: /projects/JustAPendulum/companion/5.png
+      title: Calibration and configuration
+    - data-src: /projects/JustAPendulum/companion/6.png
+      title: VS 2015 and the source code
+    - data-src: /projects/JustAPendulum/companion/7.png
+      title: Measurement trigger and reboot
+  settings:
+    maxHeight: 500
+    effect: "'slide'"

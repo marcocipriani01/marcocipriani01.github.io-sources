@@ -36,9 +36,15 @@
 
     {% include site-before-start.html %}
     
-    {% include slider_styles.html %}
-
-    {% include site-before-end.html %}
+    {% if page.image_sliders %}
+        {% include slider_styles.html %}
+        {% include site-before-end.html %}
+    {% endif %}
+    
+    {% if page.maths == true %}
+        {% include mathjax-support.html %}
+    {% endif %}
+    
   </head>
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">

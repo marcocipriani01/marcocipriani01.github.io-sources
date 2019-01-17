@@ -1,3 +1,9 @@
-<div class="video">
-  <iframe src="https://myhub.autodesk360.com/{{ include.user }}/shares/public/{{ include.file }}?mode=embed" frameborder="0" allowfullscreen title="{{ include.title | default: "Autodesk A360 online preview" }}" style="margin:16px"></iframe>
+<div class="desktop-only">
+    <div class="video">
+    <iframe src="https://myhub.autodesk360.com/{{ include.user }}/shares/public/{{ include.file }}?mode=embed" frameborder="0" allowfullscreen title="{{ include.title | default: "Autodesk A360 online preview" }}" style="margin:16px"></iframe>
+    </div>
 </div>
+<figure class="figure mobile-only figure--center">
+  <img class="image" src="{{ include.image }}" alt="{{ include.title }}" style="margin-top:16px">
+  {% if include.caption %}<figcaption class="caption">{{ include.caption }}</figcaption>{% endif %}
+</figure>
