@@ -45,6 +45,10 @@
         {% include mathjax-support.html %}
     {% endif %}
     
+    {% if page.downloads == true %}
+        {% include material-icons-support.html %}
+    {% endif %}
+    
   </head>
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">

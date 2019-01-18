@@ -1,4 +1,3 @@
-# OpenFocuser slider
 - selector: openfocuser_slider
   bullets: true
   captions: true
@@ -85,4 +84,47 @@
       title: Measurement trigger and reboot
   settings:
     maxHeight: 500
+    effect: "'slide'"
+- selector: justapendulum_gallery
+  bullets: true
+  images:
+    - src: /projects/JustAPendulum/1.jpg
+    - data-src: /projects/JustAPendulum/2.jpg
+    - data-src: /projects/JustAPendulum/3.jpg
+    - data-src: /projects/JustAPendulum/4.jpg
+  settings:
+    effect: "'slide'"
+- selector: justapendulum_box
+  bullets: true
+  images:
+    - src: /projects/JustAPendulum/diy/1.jpg
+    - data-src: /projects/JustAPendulum/diy/2.jpg
+    - data-src: /projects/JustAPendulum/diy/3.jpg
+  settings:
+    effect: "'slide'"
+- selector: justapendulum_pcb
+  bullets: true
+  images:
+    - src: /projects/JustAPendulum/diy/12.jpg
+    - data-src: /projects/JustAPendulum/diy/13.jpg
+  settings:
+    effect: "'slide'"
+- selector: justapendulum_circuit
+  bullets: true
+  images:
+    - src: /projects/JustAPendulum/diy/4.jpg
+    - data-src: /projects/JustAPendulum/diy/5.jpg
+    - data-src: /projects/JustAPendulum/diy/6.jpg
+    - data-src: /projects/JustAPendulum/diy/7.jpg
+    - data-src: /projects/JustAPendulum/diy/8.jpg
+    - data-src: /projects/JustAPendulum/diy/9.jpg
+  settings:
+    effect: "'slide'"
+- selector: justapendulum_sensors
+  bullets: true
+  images:
+    - src: /projects/JustAPendulum/diy/Detectors.png
+    - data-src: /projects/JustAPendulum/diy/10.jpg
+    - data-src: /projects/JustAPendulum/diy/11.jpg
+  settings:
     effect: "'slide'"

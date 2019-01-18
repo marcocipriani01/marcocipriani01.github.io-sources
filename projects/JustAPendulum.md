@@ -7,12 +7,15 @@ feature_text: |-
 feature_image: 1.jpg
 aside: true
 maths: true
-image_sliders: justapendulum_companion
+image_sliders:
+- justapendulum_companion
+- justapendulum_gallery
+downloads: true
 ---
 
 {% include video.html id="KyPPamUzGIE" title="JustAPendulum: open source electronic pendulum" %}
 
-JustAPendulum is an Arduino-based open-source pendulum that measures and calculates the oscillation period to find the gravitational acceleration of the Earth (~9,81 m/s²). It contains a homemade Arduino UNO that uses an USB-to-serial adapter to communicate with your computer. JustAPendulum is highly accurate and has a companion (written in Visual Basic .NET) that, in real-time, will show you the position of the mass and a table and a graph with all the precedent measures. Completely laser cut and homemade, it’s very easy-to-use: just push a button and let the mass fall and the board will calculate everything. Ideal for tests in physics classes!
+<img align="left" width="100" src="logo.png" style="position: relative; top: 8px; margin-bottom: 8px;" alt="JustAPendulum logo">  JustAPendulum is an Arduino-based open-source pendulum that measures and calculates the oscillation period to find the gravitational acceleration of the Earth (~9,81 m/s²). It contains a homemade Arduino UNO that uses an USB-to-serial adapter to communicate with your computer. JustAPendulum is highly accurate and has a companion (written in Visual Basic .NET) that, in real-time, will show you the position of the mass and a table and a graph with all the precedent measures. Completely laser cut and homemade, it’s very easy-to-use: just push a button and let the mass fall and the board will calculate everything. Ideal for tests in physics classes!
 
 ### The physics behind it
 
@@ -64,15 +67,16 @@ Go the Advanced tab, turn on "ADC monitor" and observe how the displayed values 
 To adjust the length of the wire press the "Wire length" button and enter the value. Then set the measurement error: if you measured it with a tape measure the sensitiveness should be 1 mm.
 All the values will be stored in the memory of the ATmega328P microcontroller.
 
-### Building it!
+### Gallery
 
-#### The laser cut box
+{% include slider.html selector="justapendulum_gallery" %}
 
-{% include autodesk-preview.html user="ue2cf879f" file="SH7f1edQT22b515c761ed554d1f91aed100a" image="2D.png" %}
-Cut this structure from plywood (4 mm thick) with a laser cut machine, then asseble it, put the components on the panels and fix them with some nails and vinilic glue.
+### [Building it!](diy)
 
-#### The structure
+Making JustAPendulum yourself is very easy and requires only few low-cost stuff. Refer to [this](diy) page on how to make it!
 
-{% include autodesk-preview.html user="ue2cf879f" file="SH7f1edQT22b515c761e4f231d7c23c4c7a5" image="3D.png"  %}
+### Downloads
 
-If you haven't got a pendulum, you can make one yourself starting from this example (it's an exact copy of the one I made). A 27,5·16·1 cm piece of plywood, a 5·27,5·2 cm splint and a rod are enough. Then use rings, fishing wire and a ball (I 3D printed it, the STL file is in the downloads section at the end of the page) to complete the pendulum.
+{% include download.html src="downloads/Companion-source.zip" text="Companion source code - Visual Studio 2015" %}
+
+{% include cc.html type="by-nc-sa" %}
