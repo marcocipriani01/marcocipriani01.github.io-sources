@@ -83,7 +83,7 @@ Parts needed:
 - A potentiometer and a trimmer
 - Wires, wires and wires
 
-Now that you've bought and collected the components, pick a solder and solder them all! Then fix the PCB in the box, connect all the wires to the LCD, the USB-to-serial adapter, the potentiometer and the trimmer (for display brightness and contrast). Refer to the schematic, the PCB model in the previous step and to Eagle CAD files at the bottom of this page to correctly place all the parts and wires.
+Now that you've bought and collected the components, pick a solderer and solder them all! Then fix the PCB in the box, connect all the wires to the LCD, the USB-to-serial adapter, the potentiometer and the trimmer (for display brightness and contrast). Refer to the schematic, the PCB model in the previous step and to Eagle CAD files at the bottom of this page to correctly place all the parts and wires.
 
 {% include slider.html selector="justapendulum_circuit" %}
 

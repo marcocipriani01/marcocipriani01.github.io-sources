@@ -73,7 +73,7 @@ All the values will be stored in the memory of the ATmega328P microcontroller.
 
 ### [Building it!](diy)
 
-Making JustAPendulum yourself is very easy and requires only few low-cost stuff. Refer to [this](diy) page on how to make it!
+Making JustAPendulum yourself is very easy and requires only some low-cost stuff. Refer to [this](diy) page on how to make it!
 
 ### Downloads
 

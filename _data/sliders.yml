@@ -128,3 +128,22 @@
     - data-src: /projects/JustAPendulum/diy/11.jpg
   settings:
     effect: "'slide'"
+- selector: roverbluetooth_app
+  bullets: true
+  images:
+    - src: /projects/RoverBluetooth/9.png
+    - data-src: /projects/RoverBluetooth/10.png
+    - data-src: /projects/RoverBluetooth/7.png
+    - data-src: /projects/RoverBluetooth/8.png
+  settings:
+    effect: "'slide'"
+- selector: roverbluetooth_chassis
+  bullets: true
+  images:
+    - src: /projects/RoverBluetooth/1.jpg
+    - data-src: /projects/RoverBluetooth/2.jpg
+    - data-src: /projects/RoverBluetooth/3.jpg
+    - data-src: /projects/RoverBluetooth/4.jpg
+    - data-src: /projects/RoverBluetooth/5.jpg
+  settings:
+    effect: "'slide'"
