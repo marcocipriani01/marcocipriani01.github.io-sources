@@ -33,6 +33,8 @@
     {% if site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
+    
+    {% if site.bing_webmaster %}{% include bing_webmaster.html %}{% endif %}
 
     {% include site-before-start.html %}
     
@@ -41,13 +43,9 @@
         {% include site-before-end.html %}
     {% endif %}
     
-    {% if page.maths == true %}
-        {% include mathjax-support.html %}
-    {% endif %}
+    {% if page.maths == true %}{% include mathjax-support.html %}{% endif %}
     
-    {% if page.downloads == true %}
-        {% include material-icons-support.html %}
-    {% endif %}
+    {% if page.downloads == true %}{% include material-icons-support.html %}{% endif %}
     
   </head>
 
