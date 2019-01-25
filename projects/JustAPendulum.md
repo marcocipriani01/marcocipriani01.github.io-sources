@@ -19,7 +19,7 @@ downloads: true
 
 ### The physics behind it
 
-These are all the formulae used in JustAPendulum. I'm not going to demonstrate them, but if you're curious, this information is easy to find in every physics book. To calculate the gravitational acceleration of the Earth, the pendulum simply measures the oscillation period \( T \), then uses the following formula to calculate \( g \):
+These are all the formulae used in JustAPendulum. I'm not going to demonstrate them, but if you're curious, this information is easy to find in every physics book. To calculate the gravitational acceleration of the Earth, the pendulum simply measures the oscillation period $$T$$, then uses the following formula to calculate $$g$$:
 
 $$g=4\pi^2{l \over T^2}$$
 
@@ -54,7 +54,7 @@ Please note that before using the digital pendulum sensors must be calibrated an
 
 ### The companion
 
-JustAPendulum's companion is a Visual Basic .NET (written in (Visual Studio 2015)[https://www.visualstudio.com/]) program that allows the user to monitor the pendulum in real-time from the computer. It displays the last values and errors, has tables and graphs to show the past measures and has tools to calibrate the sensors and to set the length of the wire. History can also be exported to Excel. 
+JustAPendulum's companion is a Visual Basic .NET (written in [Visual Studio 2015](https://www.visualstudio.com/)) program that allows the user to monitor the pendulum in real-time from the computer. It displays the last values and errors, has tables and graphs to show the past measures and has tools to calibrate the sensors and to set the length of the wire. History can also be exported to Excel. 
 
 {% include slider.html selector="justapendulum_companion" %}
 
