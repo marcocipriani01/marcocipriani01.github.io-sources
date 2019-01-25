@@ -13,13 +13,13 @@ aside: true
 ---
 
 ### The author
-I’m a young astronomy enthusiast, attending the high school somewhere in Italy. In my free time, I take photos of the universe with my telescope and I often write some programs, utilities or Android applications to simplify its use. I set up a Raspberry Pi to control the telescope remotely, motorized the focuser (designing and printing a 3D model for the brackets, programming an Arduino and a Java software for the computer) and the equatorial mount using two stepper motors and I wrote a bunch of code to move them using my smartphone. Together astronomy, I also made some projects for school: an app to factorize polynomials, a digitaal pendulum, which is able to calculate the gravitational acceleration of the Earth and the measurement errors and a Bluetooth car (with an Android app), that I also exposed to Maker Faire Rome when I was only thirteen.
+I’m a young astronomy enthusiast, attending the high school somewhere in Italy. In my free time, I take photos of the universe with my telescope and I often write some programs, utilities or Android applications to simplify its use. I set up a Raspberry Pi to control the telescope remotely, motorized the focuser (designing and printing a 3D model for the brackets, programming an Arduino and a Java software for the computer) and the equatorial mount using two stepper motors and I wrote a bunch of code to move them using my smartphone. Together astronomy, I also made some projects for school: an app to factorize polynomials, a digital pendulum, which is able to calculate the gravitational acceleration of the Earth and the measurement errors and a Bluetooth car (with an Android app), that I also exposed to Maker Faire Rome when I was only thirteen.
 
 ### Copyright
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />The contents of this website, photos, articles and blog posts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 ### Privacy
-This website doesn't store cookies and doesn't have trackers.
+This website uses [Google Analytics](https://analytics.google.com/analytics/web/) to determine the number of users across its pages and the countries in which they are, in order to provide a better service where needed. Biometric data (gender, age) or visitors' interests are not collected. The gathered information is not communicated to third-party organizations and is used only for internal statistical surveys.
 
 ### Contact form
 {% include site-form.html %}
@@ -31,3 +31,5 @@ This website doesn't store cookies and doesn't have trackers.
 - [Ideal Image Slider](https://github.com/Codeinwp/Ideal-Image-Slider-JS)
 - [Material Design Icons](https://material.io/tools/icons/?style=baseline)
 - [GitHub Pages](https://pages.github.com/)
+- [Cookie Consent by Insites](https://cookieconsent.insites.com/)
+- [Google Analytics](https://analytics.google.com/analytics/web/)

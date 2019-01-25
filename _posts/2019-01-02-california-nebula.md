@@ -2,7 +2,7 @@
 title: California Nebula
 image: "/blog/assets/posts-cover.jpg"
 categories:
-- Astrophotograpy
+- Astrophotography
 - Nebulae
 - Sky-Watcher EvoStar 72
 excerpt: 'My first attempt to a wide nebula with an apochromatic telescope: the EvoStar
@@ -12,6 +12,7 @@ excerpt: 'My first attempt to a wide nebula with an apochromatic telescope: the 
 feature_text: '## <span style="color:white">California Nebula with a SW EvoStar 72</span>'
 feature_image: "/blog/assets/posts-cover.jpg"
 aside: true
+thumb: 2019/2019-01-02-california-nebula
 ---
 
 My first attempt to a wide nebula with an apochromatic telescope: the EvoStar 72. Good but disappointing result: the object is itself very bright but has few details, while the photo has a great noise-to-signal ratio even if I took only six frames. I wouldn't buy this telescope, and I'll explain why.

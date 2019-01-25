@@ -7,11 +7,15 @@ function ctrl_c() {
     exit 0
 }
 
-bundle exec jekyll serve --host=0.0.0.0 --incremental &
+cd "$(dirname "$0")"
+
+rm -r _site
+
+JEKYLL_ENV=development bundle exec jekyll serve --host=0.0.0.0 --incremental &
 jekyll_pid=$!
 while true; do
     read -p "$(echo -e "Press enter to restart \n ")"
     kill $jekyll_pid
-    bundle exec jekyll serve --host=0.0.0.0 --incremental &
+    JEKYLL_ENV=development bundle exec jekyll serve --host=0.0.0.0 --incremental &
     jekyll_pid=$!
 done

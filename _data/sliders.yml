@@ -64,6 +64,19 @@
   settings:
     maxHeight: 500
     effect: "'slide'"
+- selector: pleiades_orion_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /blog/2018/2018-12-11-m45.jpg
+      title: The Pleiades, or Seven Sisters
+      alt: M 45
+    - data-src: /blog/2018/2018-12-11-m42.jpg
+      title: The Great Orion Nebula
+      alt: M 42
+  settings:
+    maxHeight: 500
+    effect: "'slide'"
 - selector: justapendulum_companion
   bullets: true
   captions: true
@@ -146,4 +159,17 @@
     - data-src: /projects/RoverBluetooth/4.jpg
     - data-src: /projects/RoverBluetooth/5.jpg
   settings:
+    effect: "'slide'"
+- selector: orion_channels
+  bullets: true
+  captions: true
+  images:
+    - src: /blog/2018/2018-12-12-R.jpg
+      title: Red channel
+    - data-src: /blog/2018/2018-12-12-G.jpg
+      title: Green channel
+    - data-src: /blog/2018/2018-12-12-B.jpg
+      title: Blue channel
+  settings:
+    maxHeight: 500
     effect: "'slide'"

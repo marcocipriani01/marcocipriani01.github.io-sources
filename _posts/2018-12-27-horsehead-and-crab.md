@@ -2,7 +2,7 @@
 title: Horsehead nebula and M1
 image: "/blog/assets/posts-cover.jpg"
 categories:
-- Astrophotograpy
+- Astrophotography
 - Nebulae
 - Sky-Watcher Newton 200
 excerpt: My photos of the Horsehead, Flame and Crab Nebulae under strong light pollution,
@@ -14,6 +14,7 @@ feature_text: '## <span style="color:white">Horsehead nebula and M1 from a light
 feature_image: "/blog/assets/posts-cover.jpg"
 image_sliders: horsehead_and_crab_slider
 aside: true
+thumb: 2018/2018-12-27-horsehead
 ---
 
 My photos of the Horsehead, Flame and Crab Nebulae under strong light pollution, taken from my backyard in Italy during these cold days (thanks remote control!). My usual gear and a lot of efforts... but the result is unbelievable and very good for my setup and imaging location!

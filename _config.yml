@@ -21,6 +21,7 @@ exclude:
 - .directory
 - .gitignore
 - jekyll.sh
+- blog/gen-thumbs.sh
 
 # 2. Installed Gems
 plugins:
@@ -96,6 +97,9 @@ email: "marco.cipriani.01@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "/assets/logo.png" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 google_analytics: 'UA-132870782-1'
+cookie_consent: true
+cookie_policy: "https://marcocipriani01.github.io/about/#privacy"
+cookie_message: "This website uses Google Analytics to ensure users get the best experience on my website"
 bing_webmaster: 'BFB5A8B78496AA210C1026F095352AB5'
 # service_worker: false # Will turn off the service worker if set to false
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
