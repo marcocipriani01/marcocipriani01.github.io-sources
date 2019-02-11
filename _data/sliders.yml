@@ -24,7 +24,6 @@
       alt: The telesope, frontal view
       title: The focuser
   settings:
-    maxHeight: 500
     effect: "'slide'"
 - selector: projects_slider
   bullets: true
@@ -49,7 +48,6 @@
       title: RoverBluetooth
       alt: Arduino-based Bluetooth car
   settings:
-    maxHeight: 500
     effect: "'slide'"
 - selector: horsehead_and_crab_slider
   bullets: true
