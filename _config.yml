@@ -22,6 +22,7 @@ exclude:
 - .gitignore
 - jekyll.sh
 - blog/gen-thumbs.sh
+- blog/add-copyright.sh
 
 # 2. Installed Gems
 plugins:
@@ -94,7 +95,7 @@ url: "https://marcocipriani01.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/marcocipriani01/marcocipriani01.github.io"
 email: "marco.cipriani.01@gmail.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+disqus: "marcocipriani01" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "/assets/logo.png" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 google_analytics: 'UA-132870782-1'
 cookie_consent: true
