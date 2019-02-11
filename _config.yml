@@ -23,6 +23,7 @@ exclude:
 - jekyll.sh
 - blog/gen-thumbs.sh
 - blog/add-copyright.sh
+- push.sh
 
 # 2. Installed Gems
 plugins:

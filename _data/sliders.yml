@@ -171,3 +171,15 @@
   settings:
     maxHeight: 500
     effect: "'slide'"
+- selector: rosette_ngc2403_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /blog/2019/2019-02-05-rosette.jpg
+      title: The Rosette Nebula
+      alt: NGC 2237
+    - data-src: /blog/2019/2019-02-05-ngc2403.jpg
+      title: NGC 2403
+  settings:
+    maxHeight: 500
+    effect: "'slide'"

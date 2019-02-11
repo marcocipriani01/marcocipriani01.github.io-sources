@@ -32,7 +32,7 @@
 
     {% if site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
-    {% if site.google_analytics and jekyll.environment == 'production'  %}{% include site-analytics.html %}{% endif %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}{% include site-analytics.html %}{% endif %}
     
     {% if site.bing_webmaster %}{% include bing_webmaster.html %}{% endif %}
 
@@ -49,10 +49,17 @@
     
     {% if site.cookie_consent == true %}{% include cookie-consent.html %}{% endif %}
     
+    {% include skip-to-main-script.html %}
+    
+    {% include jquery.html %}
+    
   </head>
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+  
     {% include site-icons.svg %}
+    
+    {% include skip-to-main.html %}
 
     {{ content }}
 
