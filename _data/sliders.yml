@@ -183,3 +183,16 @@
   settings:
     maxHeight: 500
     effect: "'slide'"
+- selector: m57_hockey_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /blog/2019/2019-06-13-M57.jpg
+      title: The Ring Nebula
+      alt: M 57
+    - data-src: /blog/2019/2019-06-13-Whale-Hockey Stick.jpg
+      title: The Whale Galaxy and the Hockey Stick Galaxy
+      alt: NGC4631 and NGC4656
+  settings:
+    maxHeight: 500
+    effect: "'slide'"
