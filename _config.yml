@@ -46,17 +46,15 @@ author: marcocipriani01 # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Marco Cipriani # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-#    - https://twitter.com/DavidDarnes
-#    - https://www.facebook.com/daviddarnes
-#    - https://www.linkedin.com/in/daviddarnes
+    - https://www.facebook.com/marco.cipriani.9634
+    - https://www.instagram.com/marco.cipriani.01/
     - https://www.youtube.com/channel/UCXxWdFx540ZKEMsCauxPuAg
-    - https://plus.google.com/111185483796676656441
     - https://github.com/marcocipriani01
 
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: /:year/:month/:day/:title:output_ext  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/Rome # Timezone for blog posts and alike
 
@@ -121,21 +119,21 @@ navigation_footer:
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   YouTube: 'https://www.youtube.com/channel/UCXxWdFx540ZKEMsCauxPuAg'
-  Google+: 'https://plus.google.com/111185483796676656441'
   GitHub: 'https://github.com/marcocipriani01'
+  Facebook: 'https://www.facebook.com/marco.cipriani.9634'
+  Instagram: 'https://www.instagram.com/marco.cipriani.01/'
   link: 'https://marcocipriani01.github.io'
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  # Twitter: "#0d94e7"
-  # facebook: "#3B5998"
-  Google+: "#DC4E41"
-  GitHub: "#000000"
-  YouTube: "#FF0000"
+  Facebook: "#3B5998"
+  #YouTube: "#FF0000"
+  #Instagram: "#bc2a8d"
+  Twitter: "#0d94e7"
   # Pinterest: "#BD081C"
   # LinkedIn: "#0077B5"
   # tumblr: "#36465D"
   # Reddit: "#FF4500"
   # Hacker News: "#ff6600"
   # Designer News: "#2D72D9"
-  # Email: ""
+  Email: "#004D40"
