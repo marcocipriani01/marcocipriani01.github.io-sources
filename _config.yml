@@ -27,6 +27,10 @@ exclude:
 - push.sh
 - .jekyll-cache
 
+include:
+- search.md
+- categories.md
+
 # 2. Installed Gems
 plugins:
 - jekyll-sitemap
