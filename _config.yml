@@ -11,13 +11,20 @@
 
 # 1. Files excluded from Jekyll builds
 exclude:
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
 - README.md
 - screenshot.png
 - LICENSE.md
-- Gemfile
-- Gemfile.lock
 - alembic-jekyll-theme.gemspec
-- vendor/cache
 - .git/
 - .directory
 - .gitignore
@@ -25,7 +32,6 @@ exclude:
 - blog/gen-thumbs.sh
 - blog/add-copyright.sh
 - push.sh
-- .jekyll-cache
 
 include:
 - search.md
