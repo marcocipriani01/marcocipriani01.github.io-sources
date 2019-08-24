@@ -196,3 +196,32 @@
   settings:
     maxHeight: 500
     effect: "'slide'"
+- selector: european_space_camp_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /blog/2019/2019-08-15-european-space-camp_07.jpg
+      title: The whole group with the cosmonaut Andrej Borisenko!
+    - data-src: /blog/2019/2019-08-15-european-space-camp_02.jpg
+      title: The launch of the rocket at the Andøya Space Center
+    - data-src: /blog/2019/2019-08-15-european-space-camp_03.jpg
+      title: Fun group photo with the rocket!
+    - data-src: /blog/2019/2019-08-15-european-space-camp_04.jpg
+      title: Signing the rocket Space Shipriani IV, named after me!
+    - data-src: /blog/2019/2019-08-15-european-space-camp_05.jpg
+      title: The Payload team together with telemetry!
+    - data-src: /blog/2019/2019-08-15-european-space-camp_06.jpg
+      title: Right before the launch
+    - data-src: /blog/2019/2019-08-15-european-space-camp_08.jpg
+      title: Me and Andrej
+    - data-src: /blog/2019/2019-08-15-european-space-camp_09.jpg
+      title: Giving a gift to the cosmonaut! A photo of the Pleiades!
+    - data-src: /blog/2019/2019-08-15-european-space-camp_10.jpg
+      title: Bonfire!
+    - data-src: /blog/2019/2019-08-15-european-space-camp.jpg
+      title: Working on the payload!
+    - data-src: /blog/2019/2019-08-15-european-space-camp_01.jpg
+      title: Receiving data from the rocket!
+  settings:
+    maxHeight: 500
+    effect: "'slide'"

@@ -9,6 +9,10 @@ excerpt: I’m a young astronomy enthusiast, attending the high school somewhere
   Italy. In my free time, I take photos of the universe with my telescope and I often
   write some programs, utilities or Android applications to simplify its use. In my
   website I describe my projects and publish my photos of the universe.
+featuredposts:
+- My experience at the European Space Camp 2019
+- Star Party of Campo Catino, 2018
+aside: true
 ---
 
 I'm a young astronomy enthusiast, attending the high school somewhere in Italy. In my free time, I take photos of the universe with my telescope and I often write some programs, utilities or Android applications to simplify its use. I set up a Raspberry Pi to control the telescope remotely, motorized the focuser (designing and printing a 3D model for the brackets, programming an Arduino and a Java software for the computer) and the equatorial mount using two stepper motors and I wrote a bunch of code to move them using my smartphone. Together astronomy, I also made some projects for school: an app to factorize polynomials, a digital pendulum, which is able to calculate the gravitational acceleration of the Earth and the measurement errors and a Bluetooth car (with an Android app), that I also exposed to Maker Faire Rome when I was only thirteen.

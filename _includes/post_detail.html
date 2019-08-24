@@ -1,0 +1,11 @@
+{% if post.title %}
+  <h4 class="entry-title">
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+  </h4>      
+{% endif %}
+<div class="entry-content" style="margin-top: 10px">{{ content | truncatewords: 40 }}</div>
+{% if post.featuredimage %}
+    <a href="{{ root_url }}{{ post.url }}">
+        <img src="{{ post.featuredimage }}" style="margin-top: 10px" />
+    </a>
+{% endif %}

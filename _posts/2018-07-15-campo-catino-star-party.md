@@ -14,6 +14,7 @@ excerpt: 'I must say that I''m really proud of the results I got at the Star Par
   the Triangulum Galaxy, the Pinwheel Galaxy and the Pacman Nebula! Check them out
   in the post!'
 thumb: 2018/2018-07-15-andromeda
+featuredimage: "/blog/2018/2018-07-15-andromeda.jpg"
 ---
 
 I must say that I'm really proud of the results I got at the Star Party of Campo Catino! Targets photographed: the Andromeda Galaxy, the Dumbbell Nebula, the Triangulum Galaxy, the Pinwheel Galaxy and the Pacman Nebula! Check them out in the post!
@@ -47,8 +48,28 @@ To make every detail visible, I took various photos at different exposure times:
 ## The Triangulum Galaxy
 ![The Triangulum Galaxy](/blog/2018/2018-07-15-m33.jpg)
 
+The Triangulum Galaxy is a spiral galaxy 2.73 million light-years from Earth. It can be found in the constellation Triangulum and is also known as Messier 33. It the third-largest member of the Local Group of galaxies, behind the Milky Way and the Andromeda Galaxy. It is one of the most distant objects that can be viewed with the naked eye, even if it can't be seen in light-polluted areas like mine. Its galactic nucleus is mostly made of H-II nebulae, so it's full of star-forming regions. The total diameter of the galaxy is about 60,000 light-years, about 60% the one of the Milky Way. Like Andromeda, it's blueshifted, so it will probably collide with our galaxy someday.
+
+It was first discovered by the Italian astronomer Giovanni Battista Hodierna near 1654, and later rediscovered in 1764 by Charles Messier, who added it to his catalogue.
+
+### My photo
+
+I was able to capture 81 60-seconds-each subs at ISO 3200, for a total of 1.3 hours! The resulting stacked photo, processed with Astro Pixel Processor and The GIMP, looks gorgeous!
+
 ## The Pinwheel Galaxy
 ![The Pinwheel Galaxy](/blog/2018/2018-07-15-m101.jpg)
 
+M 101, also known as the Pinwheel Galaxy, is a SAB(rs)cd spiral galaxy in the constellation Ursa Major. It is 21 million light-years away from Earth and faces towards us. It's 170,000 light-years in diameter, so it's smaller in size than the Milky Way, whose diameter is 258,000 ly. However, it has twice the number of stars of our galaxy! Moreover, a high population of Hydrogen II is present. It was discovered in 1791 by the French astronomer Pierre Méchain, who asked Charles Messier to add it to his Messier catalogue.
+
+### My photo
+
+I took 23 180s-long photos at ISO 1600 for a total of 1.15 hours, plus dark, flat and bias frames. Processing in Astro Pixel Processor and The GIMP.
+
 ## The Pacman Nebula
 ![The Pacman Nebula](/blog/2018/2018-07-15-pacman.jpg)
+
+NGC 281, also known as the Pacman Nebula for his unusual shape, similar to the video game character, is a 48 light-years wide emission nebula in the circumpolar constellation Cassiopeia. It is associated with the open cluster IC 1590, which also emits light that helps the nebula glow. It's mostly made of Hydrogen II and Oxigen III (ionized gas), belongs to the Perseus Spiral Arm (an arm of the Milky Way, ours is the Orion–Cygnus Arm) and is 9500 light-years from Earth. It was first discovered by the American astronomer Edward Emerson Barnard in 1883.
+
+### My photo
+
+I took 41 photos, 120 seconds each (total 1.3 hours), at ISO 3200, plus dark, bias and flat frames. Stacking and processing in Astro Pixel Processor, Darktable and The GIMP. I got a good result considering the low exposure time and the high ISO.
