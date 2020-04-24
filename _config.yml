@@ -119,7 +119,7 @@ disqus: "marcocipriani01" # Blog post comments, uncomment the option and set the
 google_analytics: 'UA-132870782-1'
 # google_analytics_anonymize_ip: ''
 cookie_consent: true
-cookie_policy: "https://marcocipriani01.github.io/about/#privacy"
+cookie_policy: "https://marcocipriani01.github.io/about#privacy"
 cookie_message: "This website uses Google Analytics to ensure users get the best experience on my website"
 bing_webmaster: 'BFB5A8B78496AA210C1026F095352AB5'
 # service_worker: false # Will turn off the service worker if set to false
