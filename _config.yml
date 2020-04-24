@@ -63,7 +63,7 @@ author: marcocipriani01 # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Marco Cipriani # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://www.facebook.com/marco.cipriani.9634
+    - https://www.facebook.com/marcocipriani01
     - https://www.instagram.com/marco.cipriani.01/
     - https://www.youtube.com/channel/UCXxWdFx540ZKEMsCauxPuAg
     - https://github.com/marcocipriani01
