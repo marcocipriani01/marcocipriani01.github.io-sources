@@ -155,7 +155,7 @@ navigation_footer:
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   YouTube: 'https://www.youtube.com/channel/UCXxWdFx540ZKEMsCauxPuAg'
   GitHub: 'https://github.com/marcocipriani01'
-  Facebook: 'https://www.facebook.com/marco.cipriani.9634'
+  Facebook: 'https://www.facebook.com/marcocipriani01'
   Instagram: 'https://www.instagram.com/marco.cipriani.01/'
   link: 'https://marcocipriani01.github.io'
   RSS: /feed.xml
