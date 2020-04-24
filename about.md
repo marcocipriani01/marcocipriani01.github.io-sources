@@ -19,7 +19,7 @@ I’m a young astronomy enthusiast, attending the high school somewhere in Italy
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />The contents of this website, photos, articles and blog posts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 ### Privacy
-This website uses [Google Analytics](https://analytics.google.com/analytics/web/) to determine the number of users across its pages and the countries in which they are, in order to provide a better service where needed. Biometric data (gender, age) or visitors' interests are not collected. The gathered information is not communicated to third-party organizations and is used only for internal statistical surveys.
+This website uses [Google Analytics](https://analytics.google.com/analytics/web/) to determine the number of users across its pages and the countries in which they are, in order to provide a better service where needed. Biometric data (gender, age) or visitors' interests are not collected. The gathered information is not communicated to third-party organizations and is used only for internal statistical surveys. I am the only person seeing this data and I use it only to monitor if my website is actually seen my people.
 
 ### Contact form
 {% include site-form.html %}
