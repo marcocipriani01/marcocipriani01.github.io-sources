@@ -18,6 +18,8 @@ layout: page
 
 I'm a young astronomy enthusiast, attending the high school somewhere in Italy. In my free time, I take photos of the universe with my telescope and I often write some programs, utilities or Android applications to simplify its use. I set up a Raspberry Pi to control the telescope remotely, motorized the focuser (designing and printing a 3D model for the brackets, programming an Arduino and a Java software for the computer) and the equatorial mount using two stepper motors and I wrote a bunch of code to move them using my smartphone. Together astronomy, I also made some projects for school: an app to factorize polynomials, a digital pendulum, which is able to calculate the gravitational acceleration of the Earth and the measurement errors and a Bluetooth car (with an Android app), that I also exposed to Maker Faire Rome when I was only thirteen.
 
+### NEW! <a href="/shop">Go to my little shop and buy a copy of a project of mine!</a>
+
 ## Astrophotography
 {% include figure.html image="/assets/my-equipment-small.jpg" caption="My telescope" position="left" href="/assets/my-equipment.jpg" %}
 Check out my blog for my photos!
