@@ -32,6 +32,7 @@ exclude:
 - blog/gen-thumbs.sh
 - blog/add-copyright.sh
 - DeployedWebsiteHTML
+- .jekyll-cache
 
 include:
 - search.md
@@ -46,6 +47,8 @@ plugins:
 - jekyll-redirect-from
 - jekyll-default-layout
 - jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
@@ -132,14 +135,14 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Projects
+- title: Buy something I made!
+  url: /shop
+- title: My projects
   url: /projects
-- title: OpenFocuser
-  url: /projects/OpenFocuser
-- title: Blog
+- title: Astro-blog
   url: /blog/
-- title: Categories
-  url: /categories.html
+#- title: Categories
+#  url: /categories.html
 - title: Search
   url: /search.html
 - title: About
