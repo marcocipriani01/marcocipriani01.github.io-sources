@@ -16,6 +16,6 @@ image_sliders:
 
 More info will be soon provided.
 ### <a href="/shop">Get one in the shop!</a>
-### <a href="guidescope-oag">(COMING SOON) OAG/guidescope edition</a>
+### <a href="OpenFocuser/guidescope-oag">(COMING SOON) OAG/guidescope edition</a>
 
 {% include slider.html selector="openfocuser_slider" %}
