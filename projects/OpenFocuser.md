@@ -13,6 +13,9 @@ image_sliders:
 ---
 
 <img align="left" width="100" src="/projects/OpenFocuser/logo.png" style="position: relative; top: 8px; margin-bottom: 8px;" alt="OpenFocuser logo"> OpenFocuser is a MoonLite-compatible motorized focuser controller with absolute and relative positioning and half and full step switching. It is Unix/Linux (INDI) and Windows (MoonLite and ASCOM) compatible.
+
+More info will be soon provided.
 ### <a href="/shop">Get one in the shop!</a>
+### <a href="guidescope-oag">(COMING SOON) OAG/guidescope edition</a>
 
 {% include slider.html selector="openfocuser_slider" %}
