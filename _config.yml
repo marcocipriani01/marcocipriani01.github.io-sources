@@ -9,6 +9,8 @@
 # 8. Site favicons & manifest icons
 # 9. Site navigation
 
+theme: alembic-jekyll-theme
+
 # 1. Files excluded from Jekyll builds
 exclude:
 - .sass-cache/
@@ -107,10 +109,9 @@ title: "Marco Cipriani" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 # Site description and default description, also used in jekyll-seo-tag
 description: >-
-  I’m a young astronomy enthusiast, attending the high school somewhere in Italy.
-  In my free time, I take photos of the universe with my telescope and I often write some programs,
-  utilities or Android applications to simplify its use. In my website I describe my projects
-  and publish my photos of the universe.
+  I'm a young astronomy enthusiast, maker and aerospace engineering student based in Rome, Italy.
+  I spend my free time creating projects, mainly motorized focusers and software for telescopes and astronomical observatories.
+  Whether I need to program, create an electric circuit or do CAD design, I'm all in ready to learn and complete the project.
 url: "https://marcocipriani01.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/marcocipriani01/marcocipriani01.github.io"
@@ -120,7 +121,7 @@ google_analytics: 'UA-132870782-1'
 # google_analytics_anonymize_ip: ''
 cookie_consent: true
 cookie_policy: "https://marcocipriani01.github.io/about#privacy"
-cookie_message: "This website uses Google Analytics to ensure users get the best experience on my website"
+cookie_message: "This website uses Google Analytics to count the number of visitors and get an overview of the audience."
 bing_webmaster: 'BFB5A8B78496AA210C1026F095352AB5'
 # service_worker: false # Will turn off the service worker if set to false
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
@@ -135,8 +136,6 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Buy something I made!
-  url: /shop
 - title: My projects
   url: /projects
 - title: Astro-blog
