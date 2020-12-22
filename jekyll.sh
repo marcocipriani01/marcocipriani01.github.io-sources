@@ -11,10 +11,6 @@ cd "$(dirname "$0")"
 
 echo -e "========= marcocipriani01.github.io website builder ========="
 
-echo -e "******** Opening Chrome ********"
-/opt/google/chrome/chrome http://0.0.0.0:4000/
-/opt/google/chrome/chrome http://0.0.0.0:4000/admin
-
 while true; do
     echo -e "******** Cleaning files ********"
     if [[ -d "_site" ]]; then
