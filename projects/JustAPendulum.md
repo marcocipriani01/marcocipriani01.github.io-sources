@@ -71,7 +71,7 @@ All the values will be stored in the memory of the ATmega328P microcontroller.
 
 {% include slider.html selector="justapendulum_gallery" %}
 
-### [Building it!](diy)
+### [Building it!](/projects/JustAPendulum/diy)
 
 Making JustAPendulum yourself is very easy and requires only some low-cost stuff. Refer to [this](diy) page on how to make it!
 
