@@ -19,14 +19,15 @@ downloads: true
 
 ### The laser cut box
 
-{% include autodesk-preview.html user="ue2cf879f" file="SH7f1edQT22b515c761ed554d1f91aed100a" image="2D.png" %}
+{% include figure.html image="2D.png" %}
+
 Cut this structure from plywood (4 mm thick) with a laser cut machine, then asseble it, put the components on the panels and fix them with some nails and vinilic glue. Download DXF/DWG files at the bottom of this page (designed with AutoCAD 2016).
 
 {% include slider.html selector="justapendulum_box" %}
 
 ### The structure
 
-{% include autodesk-preview.html user="ue2cf879f" file="SH7f1edQT22b515c761e4f231d7c23c4c7a5" image="3D.png"  %}
+{% include figure.html image="3D.png" %}
 
 If you haven't got a pendulum, you can make one yourself starting from this example (it's an exact copy of the one I made). A 27,5·16·1 cm piece of plywood, a 5·27,5·2 cm splint and a rod are enough. Then use rings, fishing wire and a ball to complete the pendulum.
 

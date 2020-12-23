@@ -1,40 +1,13 @@
-- selector: openfocuser_slider
-  bullets: true
-  captions: true
-  images:
-    - src: /projects/OpenFocuser/Motor-holder-1.jpg
-      alt: The 3D-printed holder and the motor on the focuser of a Newtonian telescope
-      title: The focuser
-    - data-src: /projects/OpenFocuser/Motor-holder-2.jpg
-      alt: Frontal view
-      title: The focuser
-    - data-src: /projects/OpenFocuser/Circuit-1.jpg
-      alt: Photo of the circuit (Plus edition, prototype)
-      title: The circuit
-    - data-src: /projects/OpenFocuser/FW-update.png
-      alt: Firmware update
-      title: OpenFocuser-Manager
-    - data-src: /projects/OpenFocuser/Plus-config.png
-      alt: Pin management, Plus edition
-      title: OpenFocuser-Manager
-    - data-src: /projects/OpenFocuser/Circuit-2.jpg
-      alt: Where I placed the circuit
-      title: The circuit
-    - data-src: /projects/OpenFocuser/Motor-holder-3.jpg
-      alt: The telesope, frontal view
-      title: The focuser
-  settings:
-    effect: "'slide'"
 - selector: projects_slider
   bullets: true
   captions: true
   images:
-    - src: /projects/OpenFocuser/Motor-holder-1.jpg
-      title: OpenFocuser
+    - src: /projects/ThunderFocus/photos/1.jpg
+      title: ThunderFocus
       alt: The 3D-printed holder and the motor
-    - data-src: /projects/Telescope-Pi/1.jpg
-      title: Telescope-Pi
-      alt: Raspberry Pi 3 B+
+    - src: /projects/ThunderFocus/photos/3.jpg
+      title: ThunderFocus
+      alt: The electronics
     - data-src: /projects/IPARCOS/slide.png
       title: IPARCOS
       alt: Telescope control app

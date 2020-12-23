@@ -10,6 +10,7 @@
 # 9. Site navigation
 
 theme: alembic-jekyll-theme
+iis_slider_array: []
 
 # 1. Files excluded from Jekyll builds
 exclude:
@@ -144,7 +145,7 @@ navigation_header:
 #  url: /categories.html
 - title: Search
   url: /search.html
-- title: About
+- title: About me
   url: /about.html
 
 navigation_footer:

@@ -4,14 +4,14 @@ image: cover.jpg
 feature_text: '## <span style="color:white; background:#242e2b">Factorizing polynomials
   made easy</span>'
 feature_image: cover.jpg
-excerpt: MathsTests can help you factorizing polynomials using the Ruffini's rule.
-  Fast, lightweight and Open-source Android app
+excerpt: MathsTests is a simple app that can factorize polynomials using Ruffini's rule.
 aside: true
 image_sliders: mathstests_slider
 ---
 
-Don't you think that Maths hard? Right, but I love it. That's why I made this app: MathsTests can help you factorizing polynomials using the Ruffini's rule, and particular trinomials! Fast, lightweight and Open-source, it's a great app for everyone who needs help with polynomials. Psss... I'm not in charge of your bad marks if you use it during tests!
+MathsTests is a simple app that can factorize polynomials using Ruffini's rule.
+Project repository on [GitHub](https://github.com/marcocipriani01/MathsTests)
 
-### Project repository: [marcocipriani01/MathsTests](https://github.com/marcocipriani01/MathsTests)
+This app is currently out-of-development and was only meant as an experiment. I'm sorry if the code is not commented, not optimized and slow. Feel free to modify the app! 
 
 {% include slider.html selector="mathstests_slider" %}

@@ -1,5 +1,5 @@
 ---
-title: About
+title: About me
 image: "/assets/this-site-cover.jpg"
 feature_text: |-
   ## <span style="color:white">Marco Cipriani's website</span>
