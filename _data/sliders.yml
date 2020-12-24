@@ -16,9 +16,6 @@
     - data-src: /projects/JustAPendulum/1.jpg
       title: JustAPendulum
       alt: Digital pendulum
-    - data-src: /projects/MathsTests/slide.png
-      title: MathsTests
-      alt: Ruffini's rule factorizer
     - data-src: /projects/RoverBluetooth/1.jpg
       title: RoverBluetooth
       alt: Arduino-based Bluetooth car
