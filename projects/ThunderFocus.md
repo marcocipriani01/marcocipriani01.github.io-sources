@@ -43,3 +43,7 @@ The user interface is platform-independent and works seamless across computers a
 ### Showcase
 
 {% include slider.html selector="thunderfocus_slider" %}
+
+{% if jekyll.environment == 'production' %}
+  {% include post-comments.html %}
+{% endif %}

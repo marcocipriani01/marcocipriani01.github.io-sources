@@ -23,3 +23,7 @@ After my final high school exam, a friend of mine asked me if I was available fo
 Thanks to **[DigitSpace](https://www.digitspace.com/)** for sponsoring this project! They contributed to the making of the electronics by providing sensors, cameras and other components! More about them in the section about the building of the observatory.
 
 ### More to come...
+
+{% if jekyll.environment == 'production' %}
+  {% include post-comments.html %}
+{% endif %}
