@@ -44,6 +44,20 @@
       alt: Building the observatory...
     - src: /projects/CaprileObservatory/slider1/11.jpg
       alt: Building the observatory...
+- selector: caprile2_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/CaprileObservatory/slider2/1.jpg
+      alt: The complete rendering
+    - src: /projects/CaprileObservatory/slider2/2.jpg
+      alt: The observatory without the walls
+    - src: /projects/CaprileObservatory/slider2/3.jpg
+      alt: The observatory without the walls
+    - src: /projects/CaprileObservatory/slider2/4.jp
+      alt: The simulated telescope
+    - src: /projects/CaprileObservatory/slider2/5.jpg
+      alt: The observatory without the walls
   settings:
     effect: "'slide'"
 - selector: thunderfocus_slider
