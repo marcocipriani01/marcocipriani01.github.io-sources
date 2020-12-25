@@ -9,6 +9,8 @@ excerpt: Caprile Observatory
 image_sliders:
 - caprile1_slider
 - caprile2_slider
+- caprile3_slider
+- caprile4_slider
 aside: true
 ---
 
@@ -16,15 +18,15 @@ aside: true
 
 After my final high school exam, a friend of mine asked me if I was available for what turned out to be my greatest project: building an astronomical observatory in the Florence's countryside. Ambitious, hard, but here I am telling you about it! First of all, I am sorry if I will not provide exact instructions on how to build it: as you can imagine, there are so many parts in this observatory that it would take me a year just to describe everything. However, if you want to make your own, I invite you to thinker and come up with your unique solutions to the problems you will certainly face: by doing so, you will certainly learn a lot and enjoy more the journey!
 
-### Photos
-
-{% include slider.html selector="caprile1_slider" %}
-
 ### Sponsor
 
 {% include figure.html image="/projects/CaprileObservatory/digitspace.png" href="https://www.digitspace.com/" %}
 
-Thanks to **[DigitSpace](https://www.digitspace.com/?6a71104bb95238e7)** for sponsoring this project! They contributed to the making of the electronics by providing sensors, cameras and other components! More about them in the section about the building of the observatory.
+Thanks to **[DigitSpace](https://www.digitspace.com/?6a71104bb95238e7)** for sponsoring this project! They contributed to the making of the electronics by providing sensors, cameras and other components! More about them in the section about the electronics.
+
+### Photos
+
+{% include slider.html selector="caprile1_slider" %}
 
 ### The aim of the project
 
@@ -63,9 +65,29 @@ Here are, however, some of renderings I've done:
 
 {% include slider.html selector="caprile2_slider" %}
 
-<hr>
+### Building step 1: power and ethernet
 
-#### More to come...
+Bringing power and ethernet from the house to the place was no easy task: 100m of thick 4mm² power cable were necessary, plus a shielded CAT6 ethernet cable.
+The wires had to go though a wall, under a pathway, above some threes up to the field. Since it was an old countryside house, we even had to upgrade the
+electrical cabinet and ask an ISP for wireless internet (with a receiver dish on top of the house)! If it weren't enough, the ethernet cable turned out to be
+unable to transfer data over such a distance, so we had to add a PoE (power-over-ethernet) rang extender in the middle of the cable.
+
+{% include slider.html selector="caprile3_slider" %}
+
+Other important factors that needed consideration were the grounding of the new electrical system and the ethernet surge protection,
+just in case a lightning or other disruptive event occurs.
+
+### Let's start the structure
+
+I'll let the pictures speak for themselves :wink:
+
+{% include slider.html selector="caprile4_slider" %}
+
+<br>
+
+# More to come...
+
+<hr>
 
 {% if jekyll.environment == 'production' %}
   {% include post-comments.html %}

@@ -60,6 +60,26 @@
       alt: The observatory without the walls
   settings:
     effect: "'slide'"
+- selector: caprile3_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/CaprileObservatory/slider3/1.jpg
+    - src: /projects/CaprileObservatory/slider3/2.jpg
+    - src: /projects/CaprileObservatory/slider3/3.jpg
+      title: The grounding
+  settings:
+    effect: "'slide'"
+- selector: caprile4_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/CaprileObservatory/slider4/1.jpg
+    - src: /projects/CaprileObservatory/slider4/2.jpg
+    - src: /projects/CaprileObservatory/slider4/3.jpg
+    - src: /projects/CaprileObservatory/slider4/4.jpg
+    - src: /projects/CaprileObservatory/slider4/5.jpg
+    - src: /projects/CaprileObservatory/slider4/6.jpg
 - selector: thunderfocus_slider
   bullets: true
   captions: true
