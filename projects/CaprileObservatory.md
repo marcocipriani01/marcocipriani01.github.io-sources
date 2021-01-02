@@ -4,7 +4,7 @@ image: cover.jpg
 feature_text: |-
   ## <span style="color:white; background:#242e2b">Caprile Observatory</span>
   <span style="color:white; background:#242e2b">Osservatorio Caprile, Florence, Italy</span>
-feature_image: cover.jpg
+feature_image: /projects/CaprileObservatory/cover.jpg
 excerpt: Caprile Observatory
 image_sliders:
 - caprile1_slider

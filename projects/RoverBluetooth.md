@@ -1,10 +1,10 @@
 ---
 title: RoverBluetooth
-image: 1.jpg
+image: /projects/RoverBluetooth/1.jpg
 feature_text: |-
   ## <span style="color:white">BT-controlled Arduino car</span>
   <span style="color:white">Made with a Meccano pack, some coding skills and passion</span>
-feature_image: 1.jpg
+feature_image: /projects/RoverBluetooth/1.jpg
 excerpt: description
 aside: true
 downloads: true
@@ -15,7 +15,7 @@ image_sliders:
 
 {% include video.html id="yFWLqmFn99o" title="RoverBluetooth - Arduino-based Bluetooth car" %}
 
-<img align="left" width="100" src="logo.png" style="position: relative; top: 8px; margin-bottom: 8px;" alt="JustAPendulum logo"> RoverBluetooth is the name I gave to the Arduino-based **Bluetooth** car I made for my school exam when I was only thirteen. I also showed it at **[Maker Faire Rome](http://www.makerfairerome.eu/)** with a FabLab (and I was one of the youngest there)! It's very easy to make (only a few low-cost electronic components and a Meccano pack) and to control, thanks to the **Android** app I programmed. It features full speed control, reverse gear, an ultrasonic sensor with parking sound and emergency brake, low-latency remote drive and a frontal light.
+<img align="left" width="100" src="/projects/RoverBluetooth/logo.png" style="position: relative; top: 8px; margin-bottom: 8px;"> RoverBluetooth is the name I gave to the Arduino-based **Bluetooth** car I made for my school exam when I was only thirteen. I also showed it at **[Maker Faire Rome](http://www.makerfairerome.eu/)** with a FabLab (and I was one of the youngest there)! It's very easy to make (only a few low-cost electronic components and a Meccano pack) and to control, thanks to the **Android** app I programmed. It features full speed control, reverse gear, an ultrasonic sensor with parking sound and emergency brake, low-latency remote drive and a frontal light.
 
 ### The app
 
@@ -31,7 +31,7 @@ If you want to replicate mine, buy some [Meccano](http://meccano.com) packs, tak
 
 ### The circuit
 
-{% include figure.html image="SCH.png" %}
+{% include figure.html image="/projects/RoverBluetooth/SCH.png" %}
 
 Parts needed:
 - Bluetooth receiver (I used the [BlueSMiRF Silver](https://www.sparkfun.com/products/12577) modem from Sparkfun, but you can also try the classic HC-06, that is cheaper)
@@ -46,7 +46,7 @@ Parts needed:
 
 Note that the servo motor I used needs 6V, so I added an LM317 to the circuit. Feel free to remove it if your servo requires 5V. Be patient, pick a solderer and make your own Arduino shield!
 
-{% include figure.html image="6.jpg" %}
+{% include figure.html image="/projects/RoverBluetooth/6.jpg" %}
 
 ### The Arduino sketch
 
@@ -60,9 +60,9 @@ The small sketch receives the data, turns on and off the motor and checks the di
 
 ### Downloads
 
-{% include download.html src="downloads/Eagle.sch" text="Autodesk Eagle 9.3.0 schematic" %}
-{% include download.html src="downloads/AI2.zip" text="MIT App Inventor project and APK" %}
-{% include download.html src="downloads/RoverBluetooth.ino" text="Arduino sketch" %}
-{% include download.html src="downloads/Eagle.sch" text="Autodesk Eagle 9.3.0 schematic" %}
+{% include download.html src="/projects/RoverBluetooth/downloads/Eagle.sch" text="Autodesk Eagle 9.3.0 schematic" %}
+{% include download.html src="/projects/RoverBluetooth/downloads/AI2.zip" text="MIT App Inventor project and APK" %}
+{% include download.html src="/projects/RoverBluetooth/downloads/RoverBluetooth.ino" text="Arduino sketch" %}
+{% include download.html src="/projects/RoverBluetooth/downloads/Eagle.sch" text="Autodesk Eagle 9.3.0 schematic" %}
 
 {% include cc.html type="by-sa" %}

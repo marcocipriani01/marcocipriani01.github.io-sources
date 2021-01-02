@@ -3,7 +3,7 @@ title: MathsTests
 image: cover.jpg
 feature_text: '## <span style="color:white; background:#242e2b">Factorizing polynomials
   made easy</span>'
-feature_image: cover.jpg
+feature_image: /projects/MathsTests/cover.jpg
 excerpt: MathsTests is a simple app that can factorize polynomials using Ruffini's rule.
 aside: true
 image_sliders: mathstests_slider

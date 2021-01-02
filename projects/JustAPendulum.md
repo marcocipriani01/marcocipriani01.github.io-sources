@@ -4,7 +4,7 @@ image: 1.jpg
 feature_text: |-
   ## <span style="color:white">JustAPendulum</span>
   <span style="color:white">Arduino-based open-source digital pendulum</span>
-feature_image: 1.jpg
+feature_image: /projects/JustAPendulum/1.jpg
 aside: true
 maths: true
 image_sliders:
@@ -29,7 +29,7 @@ $$e_g=g\biggl({0.01 m \over l}+2{0.001 s \over T}\biggr)$$
  
 $l$ is the length of the wire of the pendulum. This parameter must be set from the Companion program (see below). $0.01 m$ is the measurement error of the length (sensibility of the ruler is assumed 1 cm), while $0.001 s$ is the precision of Arduino's clock.
  
-{% include figure.html image="pendulum-scheme.jpg" caption="A scheme of a pendulum" width="300" position="left" %}
+{% include figure.html image="/projects/JustAPendulum/pendulum-scheme.jpg" caption="A scheme of a pendulum" width="300" position="left" %}
 
 #### Galileo Galilei and this formula
 
@@ -77,6 +77,6 @@ Making JustAPendulum yourself is very easy and requires only some low-cost stuff
 
 ### Downloads
 
-{% include download.html src="downloads/Companion-source.zip" text="Companion source code - Visual Studio 2015" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Companion-source.zip" text="Companion source code - Visual Studio 2015" %}
 
 {% include cc.html type="by-nc-sa" %}

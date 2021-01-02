@@ -4,7 +4,7 @@ image: cover.jpg
 feature_text: |-
   ## <span style="color:white; background:#242e2b">IPARCOS</span>
   <span style="color:white; background:#242e2b">INDI telescope and focuser remote controller</span>
-feature_image: cover.jpg
+feature_image: /projects/IPARCOS/cover.jpg
 excerpt: IPARCOS (INDI Protocol Android Remote COntrol Software) is an INDI client for Android.
   It features a generic control panel, a mount joystick-like screen, a focuser controller and a database of objects to point the telescope.
 aside: true
@@ -17,7 +17,7 @@ It features a generic control panel, a mount joystick-like screen, a focuser con
 
 This is an updated version of @farom57's IPARCOS, whose developed stopped years ago. I completely renewed the user interface, updated all the libraries and added the focuser control.
 
-<img src="1.png" width="300px" align="right" style="margin: 8px">
+<img src="/projects/IPARCOS/1.png" width="300px" align="right" style="margin: 8px">
 
 ## Features
 - Mount and focuser controller with directional pads and speed buttons
