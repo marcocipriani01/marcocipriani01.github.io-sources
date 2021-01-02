@@ -11,6 +11,7 @@ image_sliders:
 - caprile2_slider
 - caprile3_slider
 - caprile4_slider
+- caprile5_slider
 aside: true
 ---
 
@@ -65,7 +66,7 @@ Here are, however, some of renderings I've done:
 
 {% include slider.html selector="caprile2_slider" %}
 
-### Building step 1: power and ethernet
+### Power and ethernet
 
 Bringing power and ethernet from the house to the place was no easy task: 100m of thick 4mm² power cable were necessary, plus a shielded CAT6 ethernet cable.
 The wires had to go though a wall, under a pathway, above some threes up to the field. Since it was an old countryside house, we even had to upgrade the
@@ -77,11 +78,27 @@ unable to transfer data over such a distance, so we had to add a PoE (power-over
 Other important factors that needed consideration were the grounding of the new electrical system and the ethernet surge protection,
 just in case a lightning or other disruptive event occurs.
 
-### Let's start the structure
+### The structure
 
-I'll let the pictures speak for themselves :wink:
+The observatory’s structure is composed of several fir wood panels and beams, except for the six main vertical carrier beams, which are made of local chestnut wood. This is very important because those are the only parts of the structure in direct contact with the ground and chestnut wood is resistant to rain and rotting. Panels and beams were sourced from local sawmills and carpentries and then refined by my friend.
+
+Almost 20kg of high protective impregnating agent were used to paint all the parts, and a layer of melted tar was applied on the tips of the carrier beams to further protect them when they are buried into the ground.
+
+The first construction phase included the ground leveling and the installation of the base for the telescope column (a prefabricated 50x50cm concrete cockpit was used for this purpose). All the works were done manually with hoe and shovel and the aid of a demolition hammer for the concrete cockpit trench and main vertical carrier beams pits. Below the first layer of grass and dirt, the ground was composed of relatively compact marl and siltstone, which is good for the overall stability of the structure. Some cement was also poured around the concrete cockpit to further improve the stiffness and stability of the telescope base.
+
+The six main chestnut wood carrier beams were fixed into the ground, while the rest of the structure leans over concrete outdoor floor tiles placed on a leveled gravel bed (also helping with water drainage).
+
+The rest of the carpentry works involved fixing the whole structure together, including the long 5m horizontal beams that serve as a base for the rails of the roll-off roof. Bituminous membrane was applied to further protect the base of the structure and the front canopy.
 
 {% include slider.html selector="caprile4_slider" %}
+
+### The roof
+
+The roof was assembled directly in-place due to its size and weight. It slides on the rails thanks to four v-groove gate wheels. Then, two insulating metal panels were bolted on top of the wooden structure. Such panels were chosen for their relative lightness, high stiffness and good thermal insulation properties.  
+
+All the works were done late in the day and even at night to escape the intense heat of the summer season! Finally, the telescope column was bolted to the concrete cockpit base.
+
+{% include slider.html selector="caprile5_slider" %}
 
 <br>
 

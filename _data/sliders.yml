@@ -53,10 +53,8 @@
     - src: /projects/CaprileObservatory/slider2/2.jpg
       alt: The observatory without the walls
     - src: /projects/CaprileObservatory/slider2/3.jpg
-      alt: The observatory without the walls
-    - src: /projects/CaprileObservatory/slider2/4.jpg
       alt: The simulated telescope
-    - src: /projects/CaprileObservatory/slider2/5.jpg
+    - src: /projects/CaprileObservatory/slider2/4.jpg
       alt: The observatory without the walls
   settings:
     effect: "'slide'"
@@ -80,6 +78,15 @@
     - src: /projects/CaprileObservatory/slider4/4.jpg
     - src: /projects/CaprileObservatory/slider4/5.jpg
     - src: /projects/CaprileObservatory/slider4/6.jpg
+- selector: caprile5_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/CaprileObservatory/slider5/1.jpg
+    - src: /projects/CaprileObservatory/slider5/2.jpg
+    - src: /projects/CaprileObservatory/slider5/3.jpg
+    - src: /projects/CaprileObservatory/slider5/4.jpg
+    - src: /projects/CaprileObservatory/slider5/5.jpg
 - selector: thunderfocus_slider
   bullets: true
   captions: true
