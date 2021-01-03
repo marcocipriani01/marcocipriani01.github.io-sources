@@ -44,6 +44,9 @@
       alt: Building the observatory...
     - src: /projects/CaprileObservatory/slider1/11.jpg
       alt: Building the observatory...
+  settings:
+    effect: "'slide'"
+    interval: 99999
 - selector: caprile2_slider
   bullets: true
   captions: true
@@ -58,6 +61,7 @@
       alt: The observatory without the walls
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: caprile3_slider
   bullets: true
   captions: true
@@ -68,6 +72,7 @@
       title: The grounding
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: caprile4_slider
   bullets: true
   captions: true
@@ -78,6 +83,9 @@
     - src: /projects/CaprileObservatory/slider4/4.jpg
     - src: /projects/CaprileObservatory/slider4/5.jpg
     - src: /projects/CaprileObservatory/slider4/6.jpg
+  settings:
+    effect: "'slide'"
+    interval: 99999
 - selector: caprile5_slider
   bullets: true
   captions: true
@@ -87,6 +95,9 @@
     - src: /projects/CaprileObservatory/slider5/3.jpg
     - src: /projects/CaprileObservatory/slider5/4.jpg
     - src: /projects/CaprileObservatory/slider5/5.jpg
+  settings:
+    effect: "'slide'"
+    interval: 99999
 - selector: caprile6_slider
   bullets: true
   captions: true
@@ -95,6 +106,9 @@
     - src: /projects/CaprileObservatory/slider6/1.jpg
     - src: /projects/CaprileObservatory/slider6/2.jpg
     - src: /projects/CaprileObservatory/slider6/3.jpg
+  settings:
+    effect: "'slide'"
+    interval: 99999
 - selector: caprile7_slider
   bullets: true
   captions: true
@@ -102,6 +116,9 @@
     - src: /projects/CaprileObservatory/slider1/8.jpg
     - src: /projects/CaprileObservatory/slider7/1.jpg
     - src: /projects/CaprileObservatory/slider7/2.jpg
+  settings:
+    effect: "'slide'"
+    interval: 99999
 - selector: caprile8_slider
   bullets: true
   captions: true
@@ -109,6 +126,9 @@
     - src: /projects/CaprileObservatory/slider8/1.png
     - src: /projects/CaprileObservatory/slider8/2.png
     - src: /projects/CaprileObservatory/slider8/3.png
+  settings:
+    effect: "'slide'"
+    interval: 99999
 - selector: thunderfocus_slider
   bullets: true
   captions: true

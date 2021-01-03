@@ -18,13 +18,17 @@ image_sliders:
 aside: true
 ---
 
-After my final high school exam, a friend of mine asked me if I was available for what turned out to be my greatest project: building an astronomical observatory in the Florence's countryside. Ambitious, hard, but here I am telling you about it! First of all, I am sorry if I will not provide exact instructions on how to build it: as you can imagine, there are so many parts in this observatory that it would take me a year just to describe everything. However, if you want to make your own, I invite you to thinker and come up with your unique solutions to the problems you will certainly face: by doing so, you will certainly learn a lot and enjoy more the journey!
+After my final high school exam, a friend of mine asked me if I was available for what turned out to be my greatest project: building an astronomical observatory in the Florence's countryside.
+Ambitious, hard, but here I am telling you about it! First of all, I am sorry if I will not provide exact instructions on how to build it: as you can imagine,
+there are so many parts in this observatory that it would take me a year just to describe everything. However, if you want to make your own,
+I invite you to thinker and come up with your unique solutions to the problems you will certainly face: by doing so, you will certainly learn a lot and enjoy more the journey!
 
 ### Sponsor
 
 {% include figure.html image="/projects/CaprileObservatory/digitspace.png" href="https://www.digitspace.com/" %}
 
-Thanks to **[DigitSpace](https://www.digitspace.com/?6a71104bb95238e7)** for sponsoring this project! They contributed to the making of the electronics by providing sensors, cameras and other components! More about them in the section about the electronics.
+Thanks to **[DigitSpace](https://www.digitspace.com/?6a71104bb95238e7)** for sponsoring this project! They contributed to the making of the electronics by providing sensors,
+cameras and other components! More about them in the section about the electronics.
 
 ### Photos
 
@@ -213,6 +217,8 @@ These are some of the astro-photos taken from the Caprile Observatory, remotely 
 {% include figure.html image="/projects/CaprileObservatory/results/1.jpg" href="/projects/CaprileObservatory/results/1.jpg" %}
 {% include figure.html image="/projects/CaprileObservatory/results/2.jpg" href="/projects/CaprileObservatory/results/2.jpg" %}
 {% include figure.html image="/projects/CaprileObservatory/results/3.jpg" href="/projects/CaprileObservatory/results/3.jpg" %}
+
+##### More photos of the observatory on [Nik Coli's AstroBin](https://www.astrobin.com/users/Nik/)!
 
 {% if jekyll.environment == 'production' %}
   {% include post-comments.html %}
