@@ -43,7 +43,7 @@ while being a great opportunity of learning and making experience.
 
 ### The plan
 
-Every big project must have one: in this case, there were a lot a constrains and requirements that needed to be fulfilled.
+Every big project must have one: in this case, there were a lot a constrains and requirements that needed to be fulfilled:
 
 - The roof must slide completely and the structure must not hide parts of the sky
 - No cement foundations, since the observatory would be located in a front yard and not in building plot
@@ -124,7 +124,7 @@ system (consisting of several relays, MOSFETs and derivations for both the 12V a
 Surrounding the main box, an IR camera, switchable IR LEDs (to avoid disturbing the telescope's CCD) and a PIR sensor were added.
 
 **Huge thanks to DigitSpace for providing most of the electronics used in this project: they were so kind to send me Arduino sensors,
-spare electronics parts and a Raspberry Pi camera to complete the server box. Here's the list of components used:**
+spare electronics parts and a Raspberry Pi camera to complete the server box. Here's the list of components we've used:**
 
 | Component                           | Link                                                                                                                                                                                    |
 | :---------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -197,7 +197,7 @@ peak loads, toroidal transformers and sensitive devices. _Note: these new parts 
 ### Web interface
 
 The web interface can be viewed from any browser, which makes it extremely convenient and easy to use. It provides the following functionalities:
-- Shows the cameras in real time, 
+- Shows the cameras in real time
 - Displays the history of every sensor in the past four hours
 - Can turn on and off every device and power plug
 - Opens and closes the roof, shows the curren position and the status of the endstops
