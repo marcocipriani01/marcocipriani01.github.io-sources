@@ -87,6 +87,28 @@
     - src: /projects/CaprileObservatory/slider5/3.jpg
     - src: /projects/CaprileObservatory/slider5/4.jpg
     - src: /projects/CaprileObservatory/slider5/5.jpg
+- selector: caprile6_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/CaprileObservatory/slider1/9.jpg
+    - src: /projects/CaprileObservatory/slider6/1.jpg
+    - src: /projects/CaprileObservatory/slider6/2.jpg
+    - src: /projects/CaprileObservatory/slider6/3.jpg
+- selector: caprile7_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/CaprileObservatory/slider1/8.jpg
+    - src: /projects/CaprileObservatory/slider7/1.jpg
+    - src: /projects/CaprileObservatory/slider7/2.jpg
+- selector: caprile8_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /projects/CaprileObservatory/slider8/1.png
+    - src: /projects/CaprileObservatory/slider8/2.png
+    - src: /projects/CaprileObservatory/slider8/3.png
 - selector: thunderfocus_slider
   bullets: true
   captions: true

@@ -19,12 +19,12 @@ ThunderFocus is an all-in-one focuser and power box (dew heater controller) desi
 
 The firmware can run on both Arduino and Teensy, with the only difference being the RTC support and the speed of the MCU. Thanks to the firmware configuration file, you can select only the features you need and remove the unnecessary: the control software will detect the available features and display only the options supported by the board, so you won't need to modify other files.
 
-The user interface is platform-independent and works seamless across computers and boards like Raspberry Pi, with the only requirement being Java 14 (bundled in the Windows installer): in this way, you get the same experience no matter what OS you run. Moreover, it uses [INDIForJava](http://indiforjava.sourceforge.net/stage/index.html) for INDI/KStars compatibility and a special ASCOM driver for Windows compatibility. As a bonus, it can also be controlled using the [IPARCOS Android app](https://marcocipriani01.github.io/projects/IPARCOS) when the INDI server is enabled!
+The user interface is platform-independent and works seamless across computers and boards like Raspberry Pi, with the only requirement being Java 14 (bundled in the Windows installer): in this way, you get the same experience no matter what OS you run. Moreover, it uses [INDIForJava](http://indiforjava.sourceforge.net/stage/index.html) for INDI/KStars compatibility and a special ASCOM driver for Windows compatibility. As a bonus, it can also be controlled using the [IPARCOS Android app](/projects/IPARCOS) when the INDI server is enabled!
 
 ### [IPARCOS](/projects/IPARCOS)
 
-IPARCOS (INDI Protocol Android Remote COntrol Software) is an INDI client for Android.
-It features a generic control panel, a mount joystick-like screen, a focuser controller and a database of objects to point the telescope.
+IPARCOS (Indi Protocol Android Remote COntrol Software) is an INDI client for Android.
+It features an INDI control panel, a mount and focuser controller and a database of objects to point the telescope.
 
 ### [JustAPendulum](/projects/JustAPendulum)
 
