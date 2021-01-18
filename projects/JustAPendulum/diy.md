@@ -4,7 +4,7 @@ image: 6.jpg
 feature_text: |-
   ## <span style="color:white">JustAPendulum</span>
   <span style="color:white">Arduino-based open-source digital pendulum</span>
-feature_image: 6.jpg
+feature_image: /projects/JustAPendulum/diy/6.jpg
 aside: true
 maths: true
 image_sliders:
@@ -19,7 +19,7 @@ downloads: true
 
 ### The laser cut box
 
-{% include figure.html image="2D.png" %}
+{% include figure.html image="/projects/JustAPendulum/diy/2D.png" %}
 
 Cut this structure from plywood (4 mm thick) with a laser cut machine, then asseble it, put the components on the panels and fix them with some nails and vinilic glue. Download DXF/DWG files at the bottom of this page (designed with AutoCAD 2016).
 
@@ -27,7 +27,7 @@ Cut this structure from plywood (4 mm thick) with a laser cut machine, then asse
 
 ### The structure
 
-{% include figure.html image="3D.png" %}
+{% include figure.html image="/projects/JustAPendulum/diy/3D.png" %}
 
 If you haven't got a pendulum, you can make one yourself starting from this example (it's an exact copy of the one I made). A 27,5·16·1 cm piece of plywood, a 5·27,5·2 cm splint and a rod are enough. Then use rings, fishing wire and a ball to complete the pendulum.
 
@@ -37,7 +37,7 @@ I hadn't got an iron mass (would be better, of course), so I made a ball with a 
 
 #### The PCB
 
-{% include figure.html image="BRD.png" %}
+{% include figure.html image="/projects/JustAPendulum/diy/BRD.png" %}
 
 This is the less expensive method to create a homemade PCB using only low-cost stuff:
 - Laser printer (600 dpi or better)
@@ -64,7 +64,7 @@ Now it's time to use acid to etch the PCB. In a **plastic** box put three glasse
 ### Electronics
 
 Here's the schematic:
-{% include figure.html image="SCH.png" %}
+{% include figure.html image="/projects/JustAPendulum/diy/SCH.png" %}
 
 Parts needed:
 - ATMEGA328P MCU
@@ -96,14 +96,15 @@ Add the sensors as shown in the pictures, then make some caps (I used a rotary t
 
 ### Downloads
 
-{% include download.html src="../downloads/Firmware.zip" text="Arduino firmware, .ino format" %}
-{% include download.html src="../downloads/PCB.stl" text="PCB etching page, PDF" %}
-{% include download.html src="../downloads/Ball.stl" text="3D ball, STL format" %}
-{% include download.html src="../downloads/2D.stl" text="Laser cutting model, DXF" %}
-{% include download.html src="../downloads/Eagle.sch" text="Schematic, Autodesk Eagle 9.2.2" %}
-{% include download.html src="../downloads/Eagle.brd" text="Board, Autodesk Eagle 9.2.2" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Firmware.zip" text="Arduino firmware, .ino format" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Companion-source.zip" text="Companion source code - Visual Studio 2015" %}
+{% include download.html src="/projects/JustAPendulum/downloads/PCB.pdf" text="PCB etching page, PDF" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Ball.stl" text="3D ball, STL format" %}
+{% include download.html src="/projects/JustAPendulum/downloads/2D.stl" text="Laser cutting model, DXF" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Eagle.sch" text="Schematic, Autodesk Eagle 9.2.2" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Eagle.brd" text="Board, Autodesk Eagle 9.2.2" %}
 
 ## You're ready!
-**[Go back](..)** and start using it!
+**[Go back](/projects/JustAPendulum)** and start using it!
 
 {% include cc.html type="by-nc-sa" %}

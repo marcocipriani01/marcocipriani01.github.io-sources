@@ -15,7 +15,7 @@ downloads: true
 
 {% include video.html id="KyPPamUzGIE" title="JustAPendulum: open source electronic pendulum" %}
 
-<img align="left" width="100" src="logo.png" style="position: relative; top: 8px; margin-bottom: 8px;" alt="JustAPendulum logo">  JustAPendulum is an Arduino-based open-source pendulum that measures and calculates the oscillation period to find the gravitational acceleration of the Earth (~9,81 m/s²). It contains a homemade Arduino UNO that uses an USB-to-serial adapter to communicate with your computer. JustAPendulum is highly accurate and has a companion (written in Visual Basic .NET) that, in real-time, will show you the position of the mass and a table and a graph with all the precedent measures. Completely laser cut and homemade, it’s very easy-to-use: just push a button and let the mass fall and the board will calculate everything. Ideal for tests in physics classes!
+<img align="left" width="100" src="/projects/JustAPendulum/logo.png" style="position: relative; top: 8px; margin-bottom: 8px;" alt="JustAPendulum logo">  JustAPendulum is an Arduino-based open-source pendulum that measures and calculates the oscillation period to find the gravitational acceleration of the Earth (~9,81 m/s²). It contains a homemade Arduino UNO that uses an USB-to-serial adapter to communicate with your computer. JustAPendulum is highly accurate and has a companion (written in Visual Basic .NET) that, in real-time, will show you the position of the mass and a table and a graph with all the precedent measures. Completely laser cut and homemade, it’s very easy-to-use: just push a button and let the mass fall and the board will calculate everything. Ideal for tests in physics classes!
 
 ### The physics behind it
 
@@ -77,6 +77,12 @@ Making JustAPendulum yourself is very easy and requires only some low-cost stuff
 
 ### Downloads
 
+{% include download.html src="/projects/JustAPendulum/downloads/Firmware.zip" text="Arduino firmware, .ino format" %}
 {% include download.html src="/projects/JustAPendulum/downloads/Companion-source.zip" text="Companion source code - Visual Studio 2015" %}
+{% include download.html src="/projects/JustAPendulum/downloads/PCB.pdf" text="PCB etching page, PDF" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Ball.stl" text="3D ball, STL format" %}
+{% include download.html src="/projects/JustAPendulum/downloads/2D.stl" text="Laser cutting model, DXF" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Eagle.sch" text="Schematic, Autodesk Eagle 9.2.2" %}
+{% include download.html src="/projects/JustAPendulum/downloads/Eagle.brd" text="Board, Autodesk Eagle 9.2.2" %}
 
 {% include cc.html type="by-nc-sa" %}
