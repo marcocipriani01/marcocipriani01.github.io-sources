@@ -21,6 +21,7 @@
       alt: Arduino-based Bluetooth car
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: caprile1_slider
   bullets: true
   captions: true
@@ -145,6 +146,7 @@
     - src: /projects/ThunderFocus/photos/10.jpg
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: horsehead_and_crab_slider
   bullets: true
   captions: true
@@ -192,6 +194,7 @@
   settings:
     maxHeight: 500
     effect: "'slide'"
+    interval: 99999
 - selector: justapendulum_gallery
   bullets: true
   images:
@@ -201,6 +204,7 @@
     - data-src: /projects/JustAPendulum/4.jpg
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: justapendulum_box
   bullets: true
   images:
@@ -209,6 +213,7 @@
     - data-src: /projects/JustAPendulum/diy/3.jpg
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: justapendulum_pcb
   bullets: true
   images:
@@ -216,6 +221,7 @@
     - data-src: /projects/JustAPendulum/diy/13.jpg
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: justapendulum_circuit
   bullets: true
   images:
@@ -227,6 +233,7 @@
     - data-src: /projects/JustAPendulum/diy/9.jpg
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: justapendulum_sensors
   bullets: true
   images:
@@ -235,6 +242,7 @@
     - data-src: /projects/JustAPendulum/diy/11.jpg
   settings:
     effect: "'slide'"
+    interval: 99999
 - selector: roverbluetooth_app
   bullets: true
   images:
