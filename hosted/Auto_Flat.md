@@ -6,6 +6,7 @@ feature_text: |-
 feature_image: "/assets/this-site-cover.jpg"
 excerpt: Auto Flat config utility download
 aside: true
+downloads: true
 ---
 
 {% include download.html src="/hosted/Auto_Flat/drivers.exe" text="Serial drivers (might me necessary)" %}
