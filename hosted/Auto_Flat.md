@@ -8,4 +8,4 @@ excerpt: Auto Flat config utility download
 aside: true
 ---
 
-<iframe frameborder="no" src="publish.htm" width="100%" height="100%" />
+<iframe frameborder="no" src="/hosted/Auto_Flat/publish.htm" width="100%" height="100%" />
