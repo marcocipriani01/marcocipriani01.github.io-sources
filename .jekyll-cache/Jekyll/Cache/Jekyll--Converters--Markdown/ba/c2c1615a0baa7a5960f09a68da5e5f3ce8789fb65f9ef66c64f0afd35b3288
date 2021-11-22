@@ -1,0 +1,179 @@
+I"�$<p><strong><a href="..">Go back</a></strong></p>
+
+<h3 id="the-laser-cut-box">The laser cut box</h3>
+
+<figure class="figure desktop-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/2D.png" alt="" width="" height="" />
+    
+    
+</figure>
+<figure class="figure mobile-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/2D.png" alt="" width="" height="" />
+    
+    
+</figure>
+
+<p>Cut this structure from plywood (4 mm thick) with a laser cut machine, then asseble it, put the components on the panels and fix them with some nails and vinilic glue. Download DXF/DWG files at the bottom of this page (designed with AutoCAD 2016).</p>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div id="justapendulum_box">
+  <img data-src="" data-src-2x="" src="/projects/JustAPendulum/diy/1.jpg" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/2.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/3.jpg" data-src-2x="" src="" title="" alt="" />
+  </div>
+
+<h3 id="the-structure">The structure</h3>
+
+<figure class="figure desktop-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/3D.png" alt="" width="" height="" />
+    
+    
+</figure>
+<figure class="figure mobile-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/3D.png" alt="" width="" height="" />
+    
+    
+</figure>
+
+<p>If you haven’t got a pendulum, you can make one yourself starting from this example (it’s an exact copy of the one I made). A 27,5·16·1 cm piece of plywood, a 5·27,5·2 cm splint and a rod are enough. Then use rings, fishing wire and a ball to complete the pendulum.</p>
+
+<h3 id="the-mass">The mass</h3>
+
+<p>I hadn’t got an iron mass (would be better, of course), so I made a ball with a 3D printer and I added a ring to hang it to the wire. The heavier and thinner it is (see pendulum clocks: the mass is flat to avoid friction with air), the longer it will oscillate.</p>
+
+<h4 id="the-pcb">The PCB</h4>
+
+<figure class="figure desktop-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/BRD.png" alt="" width="" height="" />
+    
+    
+</figure>
+<figure class="figure mobile-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/BRD.png" alt="" width="" height="" />
+    
+    
+</figure>
+
+<p>This is the less expensive method to create a homemade PCB using only low-cost stuff:</p>
+<ul>
+  <li>Laser printer (600 dpi or better)</li>
+  <li>Photo paper</li>
+  <li>Blank circuit board</li>
+  <li>Muriatic acid (&gt;10% HCl)</li>
+  <li>Hydrogen peroxide (10% solution)</li>
+  <li>Clothes iron</li>
+  <li>Acetone</li>
+  <li>Steel wool</li>
+  <li>Safety goggles and gloves</li>
+  <li>Sodium bicarbonate</li>
+  <li>Vinegar</li>
+  <li>Paper towel</li>
+</ul>
+
+<p>The first step is cleaning the blank PCB with steel wool and water. If the copper appears a bit oxidized, you should wash it with vinegar before. Then, scrub the copper side with a paper towel soaked in acetone to remove any remaining dirt. Accurately rub every part of the board. <strong>Do not touch the copper with hands!</strong></p>
+
+<p>Print the PCB.pdf file at the bottom of this page using a <strong>laser</strong> printer and do not touch it with fingers. Cut it, align the image on the copper side and press it with the clothes iron (it must be hot but without vapour) for about five minutes. Let it cool with all the paper, then remove the paper very slowly and carefully under water. If there’s no toner on the copper, repeat the procedure; Use a small permanent marker to fix some missing connections.</p>
+
+<p>Now it’s time to use acid to etch the PCB. In a <strong>plastic</strong> box put three glasses of muriatic acid and one of hydrogen peroxide; you can also try with equal amounts for a more powerful etching. Put the PCB in the solution (pay attention to your hands and eyes) and wait about ten minutes. When the etching is finished remove the board from the solution and wash under water. Put two spoons of sodium bicarbonate in the acid to neutralize the solution and throw it in the WC (or take it to a waste collection centre).</p>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div id="justapendulum_pcb">
+  <img data-src="" data-src-2x="" src="/projects/JustAPendulum/diy/12.jpg" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/13.jpg" data-src-2x="" src="" title="" alt="" />
+  </div>
+
+<h3 id="electronics">Electronics</h3>
+
+<p>Here’s the schematic:</p>
+<figure class="figure desktop-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/SCH.png" alt="" width="" height="" />
+    
+    
+</figure>
+<figure class="figure mobile-only figure--center">
+    
+        <img class="image" src="/projects/JustAPendulum/diy/SCH.png" alt="" width="" height="" />
+    
+    
+</figure>
+
+<p>Parts needed:</p>
+<ul>
+  <li>ATMEGA328P MCU</li>
+  <li>2x 22 pF capacitors</li>
+  <li>3x 100 uF capacitors</li>
+  <li>2x 1N4148 diodes</li>
+  <li>7805TV voltage regulator</li>
+  <li>6x 10K resistors</li>
+  <li>2x 220R resistors</li>
+  <li>16 MHz crystal oscillator</li>
+  <li>Pinheads</li>
+  <li>USB-to-serial adapter</li>
+  <li>940nm side-looking infrared emitters and IR detectors (I bought <a href="https://www.sparkfun.com/products/241">these</a> from Sparkfun)</li>
+  <li>9V battery and battery holder</li>
+  <li>16x2 LCD screen</li>
+  <li>2 buttons</li>
+  <li>A potentiometer and a trimmer</li>
+  <li>Wires, wires and wires</li>
+</ul>
+
+<p>Now that you’ve bought and collected the components, pick a solderer and solder them all! Then fix the PCB in the box, connect all the wires to the LCD, the USB-to-serial adapter, the potentiometer and the trimmer (for display brightness and contrast). Refer to the schematic, the PCB model in the previous step and to Eagle CAD files at the bottom of this page to correctly place all the parts and wires.</p>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div id="justapendulum_circuit">
+  <img data-src="" data-src-2x="" src="/projects/JustAPendulum/diy/4.jpg" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/5.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/6.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/7.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/8.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/9.jpg" data-src-2x="" src="" title="" alt="" />
+  </div>
+
+<h3 id="sensors">Sensors</h3>
+
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+<div id="justapendulum_sensors">
+  <img data-src="" data-src-2x="" src="/projects/JustAPendulum/diy/Detectors.png" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/10.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/projects/JustAPendulum/diy/11.jpg" data-src-2x="" src="" title="" alt="" />
+  </div>
+
+<p>Add the sensors as shown in the pictures, then make some caps (I used a rotary tool to engrave them from a wood splint) to cover and protect them. Then connect them to the main board.</p>
+
+<h3 id="downloads">Downloads</h3>
+
+<p><span class="material-icons">cloud_download</span> <a href="/projects/JustAPendulum/downloads/Firmware.zip" style="margin-left: 2px"><b>Arduino firmware, .ino format</b></a></p>
+
+<p><span class="material-icons">cloud_download</span> <a href="/projects/JustAPendulum/downloads/Companion-source.zip" style="margin-left: 2px"><b>Companion source code - Visual Studio 2015</b></a></p>
+
+<p><span class="material-icons">cloud_download</span> <a href="/projects/JustAPendulum/downloads/PCB.pdf" style="margin-left: 2px"><b>PCB etching page, PDF</b></a></p>
+
+<p><span class="material-icons">cloud_download</span> <a href="/projects/JustAPendulum/downloads/Ball.stl" style="margin-left: 2px"><b>3D ball, STL format</b></a></p>
+
+<p><span class="material-icons">cloud_download</span> <a href="/projects/JustAPendulum/downloads/2D.stl" style="margin-left: 2px"><b>Laser cutting model, DXF</b></a></p>
+
+<p><span class="material-icons">cloud_download</span> <a href="/projects/JustAPendulum/downloads/Eagle.sch" style="margin-left: 2px"><b>Schematic, Autodesk Eagle 9.2.2</b></a></p>
+
+<p><span class="material-icons">cloud_download</span> <a href="/projects/JustAPendulum/downloads/Eagle.brd" style="margin-left: 2px"><b>Board, Autodesk Eagle 9.2.2</b></a></p>
+
+<h2 id="youre-ready">You’re ready!</h2>
+<p><strong><a href="/projects/JustAPendulum">Go back</a></strong> and start using it!</p>
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+
+:ET

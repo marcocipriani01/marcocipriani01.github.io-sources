@@ -12,6 +12,8 @@ downloads: true
 
 {% include download.html src="/projects/Auto_Flat/Auto Flat Setup.exe" text="Control panel and CoverCalibrator ASCOM driver" %}
 
-### Serial drivers
+### Serial port drivers for Windows
 
-Some computers might not detect the flip-flat or connect to it. In that case, please install the {% include download.html src="/projects/Auto_Flat/CH340 Windows driver.exe" text="Serial driver" %}
+The serial port drivers are necessary if using an Auto Flat `v1.3` board or older. If your board has a mini-USB port (not a micro-USB), then it needs the serial drivers.
+
+{% include download.html src="/projects/Auto_Flat/CH341SER.exe" text="Serial port drivers" %}
