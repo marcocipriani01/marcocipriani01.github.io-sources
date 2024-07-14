@@ -1,9 +1,0 @@
-I"—<p><span class="material-icons">cloud_download</span> <a href="/projects/Auto_Flat/Auto Flat Setup.exe" style="margin-left: 2px"><b>Control panel and CoverCalibrator ASCOM driver</b></a></p>
-
-<h3 id="serial-port-drivers-for-windows">Serial port drivers for Windows</h3>
-
-<p>The serial port drivers are necessary if using an Auto Flat <code class="language-plaintext highlighter-rouge">v1.3</code> board or older. If your board has a mini-USB port (not a micro-USB), then it needs the serial drivers.</p>
-
-<p><span class="material-icons">cloud_download</span> <a href="/projects/Auto_Flat/CH341SER.exe" style="margin-left: 2px"><b>Serial port drivers</b></a></p>
-
-:ET
