@@ -8,3 +8,4 @@ vendor/
 .directory
 DeployedWebsiteHTML
 .vscode
+.jekyll-cache/
